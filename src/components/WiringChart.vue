@@ -1,0 +1,7556 @@
+<template>
+  <div class="wiring-chart">
+    <div class="wrapper">
+      <V3DragZoomContainer
+        :min-zoom="0.1"
+        :max-zoom="100"
+        :zoom-factor="0.1"
+        :autoResize="true"
+        :followPointer="true"
+        style="width: 100%; height: 100%"
+      >
+        <svg
+          width="994.058552px"
+          height="814.389282px"
+          viewBox="0 0 994.058552 814.389282"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <title>接线图</title>
+          <defs>
+            <rect id="path-1" x="0" y="0" width="10.9156359" height="23.6602629"></rect>
+            <rect id="path-3" x="0" y="0" width="10.9156359" height="23.6602629"></rect>
+            <rect id="path-5" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-7" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-9" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-11" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-13" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-15" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-17" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-19" x="0" y="0" width="10.4608178" height="23.6602629"></rect>
+            <rect id="path-21" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-23" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-25" x="0" y="0" width="10.4608178" height="23.6602629"></rect>
+            <rect id="path-27" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-29" x="0" y="0" width="10.4608178" height="23.6602629"></rect>
+            <rect id="path-31" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-33" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-35" x="0" y="0" width="10.4608178" height="23.6602629"></rect>
+            <rect id="path-37" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-39" x="0" y="0" width="10.4608178" height="23.6602629"></rect>
+            <rect id="path-41" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-43" x="0" y="0" width="10.4608178" height="23.6602629"></rect>
+            <rect id="path-45" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-47" x="0" y="0" width="10.4608178" height="23.6602629"></rect>
+            <rect id="path-49" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-51" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-53" x="0" y="0" width="10.4608178" height="23.6602629"></rect>
+            <rect id="path-55" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-57" x="0" y="0" width="10.4608178" height="23.6602629"></rect>
+            <rect id="path-59" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-61" x="0" y="0" width="10.4608178" height="23.6602629"></rect>
+            <rect id="path-63" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-65" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-67" x="0" y="0" width="10.4608178" height="23.6602629"></rect>
+            <rect id="path-69" x="0" y="0" width="7.27709061" height="10.9201213"></rect>
+            <rect id="path-71" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-73" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-75" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-77" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-79" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect
+              id="path-81"
+              x="0"
+              y="-1.84424842e-13"
+              width="12.7349086"
+              height="23.6602629"
+            ></rect>
+            <rect
+              id="path-83"
+              x="-3.62028172e-14"
+              y="0"
+              width="10.9156359"
+              height="23.6602629"
+            ></rect>
+            <rect
+              id="path-85"
+              x="-4.18864661e-14"
+              y="0"
+              width="12.7349086"
+              height="23.6602629"
+            ></rect>
+            <rect
+              id="path-87"
+              x="-4.42329591e-13"
+              y="0"
+              width="10.9156359"
+              height="23.6602629"
+            ></rect>
+            <rect id="path-89" x="0" y="0" width="10.9156359" height="23.6602629"></rect>
+            <rect id="path-91" x="0" y="0" width="10.9156359" height="23.6602629"></rect>
+            <rect
+              id="path-93"
+              x="0"
+              y="-2.11121816e-13"
+              width="10.9156359"
+              height="23.6602629"
+            ></rect>
+            <rect id="path-95" x="0" y="0" width="10.9156359" height="23.6602629"></rect>
+            <rect id="path-97" x="0" y="0" width="36.385453" height="36.4004044"></rect>
+            <rect id="path-99" x="0" y="0" width="36.385453" height="36.4004044"></rect>
+            <rect id="path-101" x="0" y="0" width="36.385453" height="36.4004044"></rect>
+            <rect id="path-103" x="0" y="0" width="36.385453" height="36.4004044"></rect>
+            <rect
+              id="path-105"
+              x="2.10990133e-14"
+              y="0"
+              width="10.9156359"
+              height="23.6602629"
+            ></rect>
+            <rect
+              id="path-107"
+              x="1.54153643e-14"
+              y="0"
+              width="12.7349086"
+              height="23.6602629"
+            ></rect>
+            <rect
+              id="path-109"
+              x="4.38514195e-13"
+              y="0"
+              width="10.9156359"
+              height="23.6602629"
+            ></rect>
+            <rect id="path-111" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-113" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-115" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-117" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-119" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-121" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-123" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-125" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-127" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-129" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-131" x="0" y="0" width="8.18672694" height="8.190091"></rect>
+            <rect id="path-133" x="0" y="0" width="7.27709061" height="10.9201213"></rect>
+          </defs>
+          <g id="北海局主站" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="北海局主站-驾驶舱3" transform="translate(-429.970724, -129.610718)">
+              <g id="接线图" transform="translate(429.970724, 129.610718)">
+                <g id="编组-18" transform="translate(85.966301, 540.951466)">
+                  <g id="编组-6" transform="translate(27.842158, 227.047523)">
+                    <mask id="mask-2" fill="white">
+                      <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="蒙版"></g>
+                    <g mask="url(#mask-2)">
+                      <g transform="translate(0.908588, 0.000000)">
+                        <polygon
+                          id="矩形备份-53"
+                          stroke="none"
+                          fill="#5596C6"
+                          fill-rule="evenodd"
+                          points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                        ></polygon>
+                        <polygon
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="1.82002022"
+                          fill="none"
+                          stroke-linejoin="round"
+                          transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                          points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-55"
+                          stroke="none"
+                          fill="#5596C6"
+                          fill-rule="evenodd"
+                          points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                        ></polygon>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-6备份" transform="translate(46.944521, 227.047523)">
+                    <mask id="mask-4" fill="white">
+                      <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="蒙版"></g>
+                    <g id="编组-6" mask="url(#mask-4)">
+                      <g transform="translate(0.908588, 0.000000)">
+                        <polygon
+                          id="矩形备份-53"
+                          stroke="none"
+                          fill="#5596C6"
+                          fill-rule="evenodd"
+                          points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                        ></polygon>
+                        <polygon
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="1.82002022"
+                          fill="none"
+                          stroke-linejoin="round"
+                          transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                          points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-55"
+                          stroke="none"
+                          fill="#5596C6"
+                          fill-rule="evenodd"
+                          points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                        ></polygon>
+                      </g>
+                    </g>
+                  </g>
+                  <polygon
+                    id="矩形备份-47"
+                    fill="#5596C6"
+                    points="32.39034 0 34.2096126 1.04576943e-13 34.2096126 236.602629 32.39034 236.602629"
+                  ></polygon>
+                  <g id="编组-4备份-3" transform="translate(4.097348, 59.585440)">
+                    <g id="编组-2备份-4" transform="translate(24.199628, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="4.09336347"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#FA7169"
+                        x="0"
+                        y="6.82507583"
+                        width="10.0059996"
+                        height="10.0101112"
+                      ></rect>
+                    </g>
+                    <text
+                      id="5131"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.779575329" y="16.0050556">5131</tspan>
+                    </text>
+                  </g>
+                  <polygon
+                    id="矩形备份-48"
+                    fill="#5596C6"
+                    points="95.6100646 30.0101112 97.4293373 30.0101112 97.4293373 250.707786 95.6100646 250.707786"
+                  ></polygon>
+                  <polygon
+                    id="矩形备份-49"
+                    fill="#5596C6"
+                    points="103.341973 30.0101112 105.161246 30.0101112 105.161246 257.987867 103.341973 257.987867"
+                  ></polygon>
+                  <g id="编组-7备份-3" transform="translate(0.003163, 26.825076)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-7备份-4" transform="translate(0.000000, 96.895854)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-28备份" transform="translate(32.548671, 49.120324)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-3" transform="translate(32.548671, 85.065723)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-4" transform="translate(32.548671, 119.191102)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组" transform="translate(10.170536, 150.586451)">
+                    <polygon
+                      id="矩形备份-51"
+                      fill="#5596C6"
+                      points="3.18540917 0 23.1974083 0 23.1974083 1.82002022 3.18540917 1.82002022"
+                    ></polygon>
+                    <g
+                      id="编组-8备份-4"
+                      transform="translate(4.095046, 21.840243) rotate(-270.000000) translate(-4.095046, -21.840243) translate(-17.736226, 17.745197)"
+                    >
+                      <polygon
+                        id="矩形备份-24"
+                        fill="#5596C6"
+                        points="2.90165269e-14 3.18503539 9.55118142 3.18503539 9.55118142 5.00505561 2.90165269e-14 5.00505561"
+                      ></polygon>
+                      <polygon
+                        id="矩形备份-25"
+                        fill="#5596C6"
+                        points="14.0993631 3.18503539 21.8312718 3.18503539 21.8312718 5.00505561 14.0993631 5.00505561"
+                      ></polygon>
+                      <rect
+                        id="矩形备份-12"
+                        fill="#5596C6"
+                        x="9.09636326"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <g id="圆+黑白间隔" transform="translate(21.376454, -0.000000)">
+                        <mask id="mask-6" fill="white">
+                          <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-6)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <g id="编组-22" mask="url(#mask-6)" fill="#5596C6">
+                          <g
+                            transform="translate(4.093741, 4.145902) rotate(-45.000000) translate(-4.093741, -4.145902) translate(0.270160, 0.321284)"
+                          >
+                            <rect
+                              id="矩形"
+                              x="3.40444192"
+                              y="0.148349373"
+                              width="1"
+                              height="7.28008089"
+                            ></rect>
+                            <polygon
+                              id="矩形备份-22"
+                              transform="translate(3.859260, 3.788390) rotate(-270.000000) translate(-3.859260, -3.788390) "
+                              points="3.40425503 0.149844514 4.31426514 0.149844514 4.31426514 7.42693512 3.40425503 7.42693512"
+                            ></polygon>
+                            <polygon
+                              id="路径-2"
+                              points="6.43236718 1.21475968 4.16578981 -9.35889289e-14 3.85926009 3.78838982 7.64716198 3.74685284"
+                            ></polygon>
+                            <polygon
+                              id="路径-2备份"
+                              transform="translate(1.893951, 5.755041) rotate(-180.000000) translate(-1.893951, -5.755041) "
+                              points="2.5731071 5.07560561 0.306529724 3.86084592 -4.21187562e-14 7.64923574 3.7879019 7.60769876"
+                            ></polygon>
+                          </g>
+                        </g>
+                      </g>
+                      <g
+                        id="编组-3备份-3"
+                        transform="translate(28.653544, 0.455005)"
+                        fill="#5596C6"
+                      >
+                        <polygon
+                          id="矩形"
+                          points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                        ></polygon>
+                        <rect
+                          id="矩形"
+                          x="6.82227245"
+                          y="-3.15984946e-13"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <rect
+                          id="矩形备份-4"
+                          x="10.0059996"
+                          y="0.910010111"
+                          width="1.81927265"
+                          height="5.46006067"
+                        ></rect>
+                        <rect
+                          id="矩形备份-5"
+                          x="13.1897267"
+                          y="1.82002022"
+                          width="1.81927265"
+                          height="3.64004044"
+                        ></rect>
+                      </g>
+                      <rect
+                        id="矩形备份-13"
+                        fill="#5596C6"
+                        x="13.6445449"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                    </g>
+                  </g>
+                  <g id="编组-5" transform="translate(31.548671, 168.786653)">
+                    <g id="编组-26" transform="translate(14.552499, 16.835187)">
+                      <g
+                        id="站用变"
+                        transform="translate(17.284772, 12.285137) rotate(-180.000000) translate(-17.284772, -12.285137) translate(13.191409, 8.190091)"
+                      >
+                        <mask id="mask-8" fill="white">
+                          <use xlink:href="#path-7"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-8)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-8)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-8)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变备份-2"
+                        transform="translate(10.917318, 8.190091) rotate(-180.000000) translate(-10.917318, -8.190091) translate(6.823954, 4.095046)"
+                      >
+                        <mask id="mask-10" fill="white">
+                          <use xlink:href="#path-9"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-10)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-10)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-10)"
+                        ></line>
+                      </g>
+                      <polygon
+                        id="矩形备份-42"
+                        fill="#5596C6"
+                        points="10.9173179 7.28008089 28.6552263 7.28008089 28.6552263 8.190091 10.9173179 8.190091"
+                      ></polygon>
+                      <g
+                        id="站用变备份"
+                        transform="translate(4.549864, 4.095046) rotate(-180.000000) translate(-4.549864, -4.095046) translate(0.456500, 0.000000)"
+                      >
+                        <mask id="mask-12" fill="white">
+                          <use xlink:href="#path-11"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-12)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-12)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-12)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变备份-3"
+                        transform="translate(10.462500, 16.380182) rotate(-180.000000) translate(-10.462500, -16.380182) translate(6.369136, 12.285137)"
+                      >
+                        <mask id="mask-14" fill="white">
+                          <use xlink:href="#path-13"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-14)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-14)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-14)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变-变低"
+                        transform="translate(4.095046, 11.375126) rotate(-270.000000) translate(-4.095046, -11.375126) translate(0.001682, 7.280081)"
+                      >
+                        <mask id="mask-16" fill="white">
+                          <use xlink:href="#path-15"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-16)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polygon
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          stroke-linejoin="round"
+                          mask="url(#mask-16)"
+                          transform="translate(3.615289, 4.072180) rotate(-135.000000) translate(-3.615289, -4.072180) "
+                          points="5.20743574 5.23956236 2.02314186 5.66432728 2.44790678 2.48003341"
+                        ></polygon>
+                      </g>
+                    </g>
+                    <g
+                      id="编组-3备份"
+                      transform="translate(42.298089, 31.622851) rotate(-270.000000) translate(-42.298089, -31.622851) translate(34.793589, 27.982811)"
+                      fill="#5596C6"
+                    >
+                      <polygon
+                        id="矩形"
+                        points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                      ></polygon>
+                      <rect
+                        id="矩形"
+                        x="6.82227245"
+                        y="0"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        x="10.0059996"
+                        y="0.910010111"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        x="13.1897267"
+                        y="1.82002022"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                    </g>
+                    <g id="编组-3备份-2">
+                      <rect
+                        id="矩形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        transform="translate(13.189727, 3.640040) rotate(-180.000000) translate(-13.189727, -3.640040) "
+                        x="5.68550738"
+                        y="0.682507583"
+                        width="15.0084387"
+                        height="5.91506572"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        cx="7.73190877"
+                        cy="3.64004044"
+                        rx="2.04640139"
+                        ry="2.04752275"
+                      ></ellipse>
+                      <ellipse
+                        id="椭圆形备份"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        cx="18.6475447"
+                        cy="3.64004044"
+                        rx="2.04640139"
+                        ry="2.04752275"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-24"
+                        fill="#5596C6"
+                        transform="translate(23.650544, 3.640040) rotate(-180.000000) translate(-23.650544, -3.640040) "
+                        points="20.9216355 2.73003033 26.3794535 2.73003033 26.3794535 4.55005056 20.9216355 4.55005056"
+                      ></polygon>
+                      <polygon
+                        id="矩形备份-26"
+                        fill="#5596C6"
+                        transform="translate(2.728909, 3.640040) rotate(-180.000000) translate(-2.728909, -3.640040) "
+                        points="1.55690388e-14 2.73003033 5.45781796 2.73003033 5.45781796 4.55005056 1.55690388e-14 4.55005056"
+                      ></polygon>
+                    </g>
+                    <polygon
+                      id="矩形"
+                      fill="#5596C6"
+                      points="24.5601808 2.73003033 26.3794535 2.73003033 26.3794535 21.8402427 24.5601808 21.8402427"
+                    ></polygon>
+                  </g>
+                  <g id="编组-4" transform="translate(4.258086, 201.092012)">
+                    <g
+                      id="编组-10"
+                      transform="translate(3.640040, 15.242669) rotate(-270.000000) translate(-3.640040, -15.242669) translate(-8.867459, 11.602629)"
+                    >
+                      <rect
+                        id="矩形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        x="9.32405268"
+                        y="0.682507583"
+                        width="15.0084387"
+                        height="5.91506572"
+                      ></rect>
+                      <g id="编组-15" transform="translate(9.096363, 0.541910)" fill="#5596C6">
+                        <polygon
+                          id="矩形备份-23"
+                          points="-6.10989012e-15 2.15892619 6.36745428 2.15892619 6.36745428 3.52394136 -6.10989012e-15 3.52394136"
+                        ></polygon>
+                        <polygon
+                          id="路径备份"
+                          transform="translate(7.006198, 2.913698) scale(-1, 1) rotate(-135.000000) translate(-7.006198, -2.913698) "
+                          points="4.94592455 2.00021454 9.06647051 0.853379847 7.91972573 4.97401572"
+                        ></polygon>
+                      </g>
+                      <polygon
+                        id="矩形备份-24"
+                        fill="#5596C6"
+                        points="2.5948398e-14 2.73003033 9.09636326 2.73003033 9.09636326 4.55005056 2.5948398e-14 4.55005056"
+                      ></polygon>
+                    </g>
+                    <g
+                      id="编组-3备份"
+                      transform="translate(3.640040, 34.807887) rotate(-270.000000) translate(-3.640040, -34.807887) translate(-3.864459, 31.167846)"
+                      fill="#5596C6"
+                    >
+                      <polygon
+                        id="矩形"
+                        points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                      ></polygon>
+                      <rect
+                        id="矩形"
+                        x="6.82227245"
+                        y="-3.25012999e-13"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        x="10.0059996"
+                        y="0.910010111"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        x="13.1897267"
+                        y="1.82002022"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                    </g>
+                    <g id="编组-3" transform="translate(2.730404, 0.000000)">
+                      <rect
+                        id="矩形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        transform="translate(13.189727, 3.640040) rotate(-180.000000) translate(-13.189727, -3.640040) "
+                        x="5.68550738"
+                        y="0.682507583"
+                        width="15.0084387"
+                        height="5.91506572"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        cx="7.73190877"
+                        cy="3.64004044"
+                        rx="2.04640139"
+                        ry="2.04752275"
+                      ></ellipse>
+                      <ellipse
+                        id="椭圆形备份"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        cx="18.6475447"
+                        cy="3.64004044"
+                        rx="2.04640139"
+                        ry="2.04752275"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-24"
+                        fill="#5596C6"
+                        transform="translate(23.650544, 3.640040) rotate(-180.000000) translate(-23.650544, -3.640040) "
+                        points="20.9216355 2.73003033 26.3794535 2.73003033 26.3794535 4.55005056 20.9216355 4.55005056"
+                      ></polygon>
+                      <polygon
+                        id="矩形备份-26"
+                        fill="#5596C6"
+                        transform="translate(2.728909, 3.640040) rotate(-180.000000) translate(-2.728909, -3.640040) "
+                        points="1.55690388e-14 2.73003033 5.45781796 2.73003033 5.45781796 4.55005056 1.55690388e-14 4.55005056"
+                      ></polygon>
+                    </g>
+                  </g>
+                  <polygon
+                    id="矩形备份-27"
+                    fill="#5596C6"
+                    transform="translate(42.851158, 227.957533) rotate(-180.000000) translate(-42.851158, -227.957533) "
+                    points="32.39034 227.047523 53.3119755 227.047523 53.3119755 228.867543 32.39034 228.867543"
+                  ></polygon>
+                  <polygon
+                    id="矩形备份-28"
+                    fill="#5596C6"
+                    transform="translate(74.076637, 249.797776) rotate(-180.000000) translate(-74.076637, -249.797776) "
+                    points="51.5656055 248.887765 96.5876687 248.887765 96.5876687 250.707786 51.5656055 250.707786"
+                  ></polygon>
+                  <polygon
+                    id="矩形备份-29"
+                    fill="#5596C6"
+                    transform="translate(68.354959, 257.077856) rotate(-180.000000) translate(-68.354959, -257.077856) "
+                    points="32.39034 256.167846 104.319577 256.167846 104.319577 257.987867 32.39034 257.987867"
+                  ></polygon>
+                  <polygon
+                    id="矩形备份-56"
+                    fill="#5596C6"
+                    points="32.39034 247.762317 34.2096126 247.762317 34.2096126 257.772428 32.39034 257.772428"
+                  ></polygon>
+                  <path
+                    d="M95.6780324,12.2649141 L95.6780324,16.8149646 C93.166141,16.8149646 91.1298507,18.8520916 91.1298507,21.3650152 C91.1298507,23.8779387 93.166141,25.9150657 95.6780324,25.9150657 L95.6780324,30.4651163"
+                    id="路径"
+                    stroke="#5596C6"
+                    stroke-width="1.82002022"
+                  ></path>
+                  <path
+                    d="M103.409941,12.2649141 L103.409941,16.8149646 C100.89805,16.8149646 98.8617595,18.8520916 98.8617595,21.3650152 C98.8617595,23.8779387 100.89805,25.9150657 103.409941,25.9150657 L103.409941,30.4651163"
+                    id="路径备份-2"
+                    stroke="#5596C6"
+                    stroke-width="1.82002022"
+                  ></path>
+                </g>
+                <g id="编组-2" transform="translate(0.000000, 555.491405)">
+                  <polygon
+                    id="矩形备份-6"
+                    fill="#5596C6"
+                    points="76.0585516 5.00505561 994.058552 5.00505561 994.058552 8.64509606 76.0585516 8.64509606"
+                  ></polygon>
+                  <text
+                    id="660kV-1段母线"
+                    font-family="PingFangSC-Semibold, PingFang SC"
+                    font-size="10.0101112"
+                    font-weight="500"
+                    fill="#FFFFFF"
+                  >
+                    <tspan x="0.381698686" y="11">660kV 1段母线</tspan>
+                  </text>
+                </g>
+                <g id="编组-22" transform="translate(212.313788, 560.496461)">
+                  <polygon
+                    id="矩形备份-57"
+                    fill="#5596C6"
+                    points="32.3923495 2.33466302e-14 34.2116221 2.33466302e-14 34.2116221 175.176946 32.3923495 175.176946"
+                  ></polygon>
+                  <g id="编组-28" transform="translate(11.014214, 131.496461)">
+                    <g id="编组-21" transform="translate(18.194409, 66.430738)">
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.82002022"
+                        cx="4.09336347"
+                        cy="9.10010111"
+                        rx="3.18335336"
+                        ry="3.18503539"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-58"
+                        fill="#5596C6"
+                        points="3.18372714 0 5.00299979 8.04438024e-15 5.00299979 18.2002022 3.18372714 18.2002022"
+                      ></polygon>
+                    </g>
+                    <g id="编组备份">
+                      <polygon
+                        id="矩形备份-51"
+                        fill="#5596C6"
+                        points="3.18540917 0 23.1974083 0 23.1974083 1.82002022 3.18540917 1.82002022"
+                      ></polygon>
+                      <g
+                        id="编组-8备份-4"
+                        transform="translate(4.095046, 21.840243) rotate(-270.000000) translate(-4.095046, -21.840243) translate(-17.736226, 17.745197)"
+                      >
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.90165269e-14 3.18503539 9.55118142 3.18503539 9.55118142 5.00505561 2.90165269e-14 5.00505561"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-25"
+                          fill="#5596C6"
+                          points="14.0993631 3.18503539 21.8312718 3.18503539 21.8312718 5.00505561 14.0993631 5.00505561"
+                        ></polygon>
+                        <rect
+                          id="矩形备份-12"
+                          fill="#5596C6"
+                          x="9.09636326"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <g id="圆+黑白间隔" transform="translate(21.376454, 0.000000)">
+                          <mask id="mask-18" fill="white">
+                            <use xlink:href="#path-17"></use>
+                          </mask>
+                          <g id="蒙版"></g>
+                          <ellipse
+                            id="椭圆形"
+                            stroke="#5596C6"
+                            stroke-width="0.910010111"
+                            mask="url(#mask-18)"
+                            cx="4.09336347"
+                            cy="4.0950455"
+                            rx="3.63835841"
+                            ry="3.64004044"
+                          ></ellipse>
+                          <g id="编组-22" mask="url(#mask-18)" fill="#5596C6">
+                            <g
+                              transform="translate(4.093741, 4.145902) rotate(-45.000000) translate(-4.093741, -4.145902) translate(0.270160, 0.321284)"
+                            >
+                              <rect
+                                id="矩形"
+                                x="3.40444192"
+                                y="0.148349373"
+                                width="1"
+                                height="7.28008089"
+                              ></rect>
+                              <polygon
+                                id="矩形备份-22"
+                                transform="translate(3.859260, 3.788390) rotate(-270.000000) translate(-3.859260, -3.788390) "
+                                points="3.40425503 0.149844514 4.31426514 0.149844514 4.31426514 7.42693512 3.40425503 7.42693512"
+                              ></polygon>
+                              <polygon
+                                id="路径-2"
+                                points="6.43236718 1.21475968 4.16578981 -9.35889289e-14 3.85926009 3.78838982 7.64716198 3.74685284"
+                              ></polygon>
+                              <polygon
+                                id="路径-2备份"
+                                transform="translate(1.893951, 5.755041) rotate(-180.000000) translate(-1.893951, -5.755041) "
+                                points="2.5731071 5.07560561 0.306529724 3.86084592 -4.21187562e-14 7.64923574 3.7879019 7.60769876"
+                              ></polygon>
+                            </g>
+                          </g>
+                        </g>
+                        <g
+                          id="编组-3备份-3"
+                          transform="translate(28.653544, 0.455005)"
+                          fill="#5596C6"
+                        >
+                          <polygon
+                            id="矩形"
+                            points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                          ></polygon>
+                          <rect
+                            id="矩形"
+                            x="6.82227245"
+                            y="0"
+                            width="1.81927265"
+                            height="7.28008089"
+                          ></rect>
+                          <rect
+                            id="矩形备份-4"
+                            x="10.0059996"
+                            y="0.910010111"
+                            width="1.81927265"
+                            height="5.46006067"
+                          ></rect>
+                          <rect
+                            id="矩形备份-5"
+                            x="13.1897267"
+                            y="1.82002022"
+                            width="1.81927265"
+                            height="3.64004044"
+                          ></rect>
+                        </g>
+                        <rect
+                          id="矩形备份-13"
+                          fill="#5596C6"
+                          x="13.6445449"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                      </g>
+                    </g>
+                    <g
+                      id="编组-4备份-2"
+                      transform="translate(35.933064, 34.806345) scale(-1, 1) translate(-35.933064, -34.806345) translate(21.378136, 13.650152)"
+                    >
+                      <g
+                        id="编组-10"
+                        transform="translate(3.640040, 15.242669) rotate(-270.000000) translate(-3.640040, -15.242669) translate(-8.867459, 11.602629)"
+                      >
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          x="9.32405268"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <g id="编组-15" transform="translate(9.096363, 0.541910)" fill="#5596C6">
+                          <polygon
+                            id="矩形备份-23"
+                            points="-6.10989012e-15 2.15892619 6.36745428 2.15892619 6.36745428 3.52394136 -6.10989012e-15 3.52394136"
+                          ></polygon>
+                          <polygon
+                            id="路径备份"
+                            transform="translate(7.006198, 2.913698) scale(-1, 1) rotate(-135.000000) translate(-7.006198, -2.913698) "
+                            points="4.94592455 2.00021454 9.06647051 0.853379847 7.91972573 4.97401572"
+                          ></polygon>
+                        </g>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.5948398e-14 2.73003033 9.09636326 2.73003033 9.09636326 4.55005056 2.5948398e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                      <g
+                        id="编组-3备份"
+                        transform="translate(3.640040, 34.807887) rotate(-270.000000) translate(-3.640040, -34.807887) translate(-3.864459, 31.167846)"
+                        fill="#5596C6"
+                      >
+                        <polygon
+                          id="矩形"
+                          points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                        ></polygon>
+                        <rect
+                          id="矩形"
+                          x="6.82227245"
+                          y="-3.18326353e-13"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <rect
+                          id="矩形备份-4"
+                          x="10.0059996"
+                          y="0.910010111"
+                          width="1.81927265"
+                          height="5.46006067"
+                        ></rect>
+                        <rect
+                          id="矩形备份-5"
+                          x="13.1897267"
+                          y="1.82002022"
+                          width="1.81927265"
+                          height="3.64004044"
+                        ></rect>
+                      </g>
+                      <g id="编组-3" transform="translate(2.730404, 0.000000)">
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          transform="translate(13.189727, 3.640040) rotate(-180.000000) translate(-13.189727, -3.640040) "
+                          x="5.68550738"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="7.73190877"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <ellipse
+                          id="椭圆形备份"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="18.6475447"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          transform="translate(23.650544, 3.640040) rotate(-180.000000) translate(-23.650544, -3.640040) "
+                          points="20.9216355 2.73003033 26.3794535 2.73003033 26.3794535 4.55005056 20.9216355 4.55005056"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-26"
+                          fill="#5596C6"
+                          transform="translate(2.728909, 3.640040) rotate(-180.000000) translate(-2.728909, -3.640040) "
+                          points="1.55690388e-14 2.73003033 5.45781796 2.73003033 5.45781796 4.55005056 1.55690388e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                    </g>
+                    <g id="编组-6备份-11" transform="translate(16.829954, 43.225480)">
+                      <mask id="mask-20" fill="white">
+                        <use xlink:href="#path-19"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-20)">
+                        <g transform="translate(0.908588, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                            points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-32" transform="translate(27.844168, 215.674078)">
+                    <g id="编组-23" transform="translate(1.362772, 0.000000)">
+                      <g
+                        id="站用变备份"
+                        transform="translate(4.095046, 11.373444) rotate(-180.000000) translate(-4.095046, -11.373444) translate(0.001682, 7.278399)"
+                      >
+                        <mask id="mask-22" fill="white">
+                          <use xlink:href="#path-21"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-22)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-22)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-22)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变-变低"
+                        transform="translate(4.095046, 4.093363) rotate(-90.000000) translate(-4.095046, -4.093363) translate(0.001682, -0.001682)"
+                      >
+                        <mask id="mask-24" fill="white">
+                          <use xlink:href="#path-23"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-24)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polygon
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          stroke-linejoin="round"
+                          mask="url(#mask-24)"
+                          transform="translate(3.615289, 4.072180) rotate(-135.000000) translate(-3.615289, -4.072180) "
+                          points="5.20743574 5.23956236 2.02314186 5.66432728 2.44790678 2.48003341"
+                        ></polygon>
+                      </g>
+                      <polygon
+                        id="矩形备份-40"
+                        fill="#5596C6"
+                        points="4.0950455 10.4634342 20.4684994 10.4634342 20.4684994 11.3734444 4.0950455 11.3734444"
+                      ></polygon>
+                      <g id="编组-21备份" transform="translate(17.284772, 10.463434)">
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="2.72890898"
+                          cy="5.46006067"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <polygon
+                          id="矩形备份-58"
+                          fill="#5596C6"
+                          points="2.27409082 0 3.18372714 4.82662814e-15 3.18372714 10.9201213 2.27409082 10.9201213"
+                        ></polygon>
+                      </g>
+                      <polygon
+                        id="矩形备份-41"
+                        fill="#5596C6"
+                        transform="translate(11.893451, 28.804161) rotate(-44.000000) translate(-11.893451, -28.804161) "
+                        points="0.570291621 28.1853681 23.2167968 28.5131236 23.21661 29.4229534 0.570104843 29.0951979"
+                      ></polygon>
+                    </g>
+                    <g id="编组-6备份-12" transform="translate(0.000000, 14.558480)">
+                      <mask id="mask-26" fill="white">
+                        <use xlink:href="#path-25"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-26)">
+                        <g transform="translate(0.908588, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                            points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 33.2153691 3.63959396 33.2153691"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-7备份-8" transform="translate(0.005173, 6.370071)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-7备份-9" transform="translate(0.000000, 77.805865)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-28备份-10" transform="translate(33.550681, 28.665319)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-12" transform="translate(33.550681, 65.975733)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-11" transform="translate(33.550681, 100.101112)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-4" transform="translate(4.082962, 40.495450)">
+                    <g id="编组-2备份-4" transform="translate(24.199628, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="4.09336347"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#FA7169"
+                        x="0"
+                        y="6.82507583"
+                        width="10.0059996"
+                        height="10.0101112"
+                      ></rect>
+                    </g>
+                    <text
+                      id="5131"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.779575329" y="16.0050556">5131</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="编组-22备份-2" transform="translate(408.710043, 560.496461)">
+                  <polygon
+                    id="矩形备份-57"
+                    fill="#5596C6"
+                    points="32.3923495 2.33466302e-14 34.2116221 2.33466302e-14 34.2116221 175.176946 32.3923495 175.176946"
+                  ></polygon>
+                  <g id="编组-28" transform="translate(11.014214, 131.496461)">
+                    <g id="编组-21" transform="translate(18.194409, 66.430738)">
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.82002022"
+                        cx="4.09336347"
+                        cy="9.10010111"
+                        rx="3.18335336"
+                        ry="3.18503539"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-58"
+                        fill="#5596C6"
+                        points="3.18372714 0 5.00299979 8.04438024e-15 5.00299979 18.2002022 3.18372714 18.2002022"
+                      ></polygon>
+                    </g>
+                    <g id="编组备份">
+                      <polygon
+                        id="矩形备份-51"
+                        fill="#5596C6"
+                        points="3.18540917 0 23.1974083 0 23.1974083 1.82002022 3.18540917 1.82002022"
+                      ></polygon>
+                      <g
+                        id="编组-8备份-4"
+                        transform="translate(4.095046, 21.840243) rotate(-270.000000) translate(-4.095046, -21.840243) translate(-17.736226, 17.745197)"
+                      >
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.90165269e-14 3.18503539 9.55118142 3.18503539 9.55118142 5.00505561 2.90165269e-14 5.00505561"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-25"
+                          fill="#5596C6"
+                          points="14.0993631 3.18503539 21.8312718 3.18503539 21.8312718 5.00505561 14.0993631 5.00505561"
+                        ></polygon>
+                        <rect
+                          id="矩形备份-12"
+                          fill="#5596C6"
+                          x="9.09636326"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <g id="圆+黑白间隔" transform="translate(21.376454, 0.000000)">
+                          <mask id="mask-28" fill="white">
+                            <use xlink:href="#path-27"></use>
+                          </mask>
+                          <g id="蒙版"></g>
+                          <ellipse
+                            id="椭圆形"
+                            stroke="#5596C6"
+                            stroke-width="0.910010111"
+                            mask="url(#mask-28)"
+                            cx="4.09336347"
+                            cy="4.0950455"
+                            rx="3.63835841"
+                            ry="3.64004044"
+                          ></ellipse>
+                          <g id="编组-22" mask="url(#mask-28)" fill="#5596C6">
+                            <g
+                              transform="translate(4.093741, 4.145902) rotate(-45.000000) translate(-4.093741, -4.145902) translate(0.270160, 0.321284)"
+                            >
+                              <rect
+                                id="矩形"
+                                x="3.40444192"
+                                y="0.148349373"
+                                width="1"
+                                height="7.28008089"
+                              ></rect>
+                              <polygon
+                                id="矩形备份-22"
+                                transform="translate(3.859260, 3.788390) rotate(-270.000000) translate(-3.859260, -3.788390) "
+                                points="3.40425503 0.149844514 4.31426514 0.149844514 4.31426514 7.42693512 3.40425503 7.42693512"
+                              ></polygon>
+                              <polygon
+                                id="路径-2"
+                                points="6.43236718 1.21475968 4.16578981 -9.35889289e-14 3.85926009 3.78838982 7.64716198 3.74685284"
+                              ></polygon>
+                              <polygon
+                                id="路径-2备份"
+                                transform="translate(1.893951, 5.755041) rotate(-180.000000) translate(-1.893951, -5.755041) "
+                                points="2.5731071 5.07560561 0.306529724 3.86084592 -4.21187562e-14 7.64923574 3.7879019 7.60769876"
+                              ></polygon>
+                            </g>
+                          </g>
+                        </g>
+                        <g
+                          id="编组-3备份-3"
+                          transform="translate(28.653544, 0.455005)"
+                          fill="#5596C6"
+                        >
+                          <polygon
+                            id="矩形"
+                            points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                          ></polygon>
+                          <rect
+                            id="矩形"
+                            x="6.82227245"
+                            y="0"
+                            width="1.81927265"
+                            height="7.28008089"
+                          ></rect>
+                          <rect
+                            id="矩形备份-4"
+                            x="10.0059996"
+                            y="0.910010111"
+                            width="1.81927265"
+                            height="5.46006067"
+                          ></rect>
+                          <rect
+                            id="矩形备份-5"
+                            x="13.1897267"
+                            y="1.82002022"
+                            width="1.81927265"
+                            height="3.64004044"
+                          ></rect>
+                        </g>
+                        <rect
+                          id="矩形备份-13"
+                          fill="#5596C6"
+                          x="13.6445449"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                      </g>
+                    </g>
+                    <g
+                      id="编组-4备份-2"
+                      transform="translate(35.933064, 34.806345) scale(-1, 1) translate(-35.933064, -34.806345) translate(21.378136, 13.650152)"
+                    >
+                      <g
+                        id="编组-10"
+                        transform="translate(3.640040, 15.242669) rotate(-270.000000) translate(-3.640040, -15.242669) translate(-8.867459, 11.602629)"
+                      >
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          x="9.32405268"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <g id="编组-15" transform="translate(9.096363, 0.541910)" fill="#5596C6">
+                          <polygon
+                            id="矩形备份-23"
+                            points="-6.10989012e-15 2.15892619 6.36745428 2.15892619 6.36745428 3.52394136 -6.10989012e-15 3.52394136"
+                          ></polygon>
+                          <polygon
+                            id="路径备份"
+                            transform="translate(7.006198, 2.913698) scale(-1, 1) rotate(-135.000000) translate(-7.006198, -2.913698) "
+                            points="4.94592455 2.00021454 9.06647051 0.853379847 7.91972573 4.97401572"
+                          ></polygon>
+                        </g>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.5948398e-14 2.73003033 9.09636326 2.73003033 9.09636326 4.55005056 2.5948398e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                      <g
+                        id="编组-3备份"
+                        transform="translate(3.640040, 34.807887) rotate(-270.000000) translate(-3.640040, -34.807887) translate(-3.864459, 31.167846)"
+                        fill="#5596C6"
+                      >
+                        <polygon
+                          id="矩形"
+                          points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                        ></polygon>
+                        <rect
+                          id="矩形"
+                          x="6.82227245"
+                          y="-3.18326353e-13"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <rect
+                          id="矩形备份-4"
+                          x="10.0059996"
+                          y="0.910010111"
+                          width="1.81927265"
+                          height="5.46006067"
+                        ></rect>
+                        <rect
+                          id="矩形备份-5"
+                          x="13.1897267"
+                          y="1.82002022"
+                          width="1.81927265"
+                          height="3.64004044"
+                        ></rect>
+                      </g>
+                      <g id="编组-3" transform="translate(2.730404, 0.000000)">
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          transform="translate(13.189727, 3.640040) rotate(-180.000000) translate(-13.189727, -3.640040) "
+                          x="5.68550738"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="7.73190877"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <ellipse
+                          id="椭圆形备份"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="18.6475447"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          transform="translate(23.650544, 3.640040) rotate(-180.000000) translate(-23.650544, -3.640040) "
+                          points="20.9216355 2.73003033 26.3794535 2.73003033 26.3794535 4.55005056 20.9216355 4.55005056"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-26"
+                          fill="#5596C6"
+                          transform="translate(2.728909, 3.640040) rotate(-180.000000) translate(-2.728909, -3.640040) "
+                          points="1.55690388e-14 2.73003033 5.45781796 2.73003033 5.45781796 4.55005056 1.55690388e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                    </g>
+                    <g id="编组-6备份-11" transform="translate(16.829954, 43.225480)">
+                      <mask id="mask-30" fill="white">
+                        <use xlink:href="#path-29"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-30)">
+                        <g transform="translate(0.908588, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                            points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-32" transform="translate(27.844168, 215.674078)">
+                    <g id="编组-23" transform="translate(1.362772, 0.000000)">
+                      <g
+                        id="站用变备份"
+                        transform="translate(4.095046, 11.373444) rotate(-180.000000) translate(-4.095046, -11.373444) translate(0.001682, 7.278399)"
+                      >
+                        <mask id="mask-32" fill="white">
+                          <use xlink:href="#path-31"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-32)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-32)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-32)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变-变低"
+                        transform="translate(4.095046, 4.093363) rotate(-90.000000) translate(-4.095046, -4.093363) translate(0.001682, -0.001682)"
+                      >
+                        <mask id="mask-34" fill="white">
+                          <use xlink:href="#path-33"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-34)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polygon
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          stroke-linejoin="round"
+                          mask="url(#mask-34)"
+                          transform="translate(3.615289, 4.072180) rotate(-135.000000) translate(-3.615289, -4.072180) "
+                          points="5.20743574 5.23956236 2.02314186 5.66432728 2.44790678 2.48003341"
+                        ></polygon>
+                      </g>
+                      <polygon
+                        id="矩形备份-40"
+                        fill="#5596C6"
+                        points="4.0950455 10.4634342 20.4684994 10.4634342 20.4684994 11.3734444 4.0950455 11.3734444"
+                      ></polygon>
+                      <g id="编组-21备份" transform="translate(17.284772, 10.463434)">
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="2.72890898"
+                          cy="5.46006067"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <polygon
+                          id="矩形备份-58"
+                          fill="#5596C6"
+                          points="2.27409082 0 3.18372714 4.82662814e-15 3.18372714 10.9201213 2.27409082 10.9201213"
+                        ></polygon>
+                      </g>
+                      <polygon
+                        id="矩形备份-41"
+                        fill="#5596C6"
+                        transform="translate(11.893451, 28.804161) rotate(-44.000000) translate(-11.893451, -28.804161) "
+                        points="0.570291621 28.1853681 23.2167968 28.5131236 23.21661 29.4229534 0.570104843 29.0951979"
+                      ></polygon>
+                    </g>
+                    <g id="编组-6备份-12" transform="translate(0.000000, 14.558480)">
+                      <mask id="mask-36" fill="white">
+                        <use xlink:href="#path-35"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-36)">
+                        <g transform="translate(0.908588, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                            points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 33.2153691 3.63959396 33.2153691"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-7备份-8" transform="translate(0.005173, 6.370071)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-7备份-9" transform="translate(0.000000, 77.805865)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-28备份-10" transform="translate(33.550681, 28.665319)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-12" transform="translate(33.550681, 65.975733)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-11" transform="translate(33.550681, 100.101112)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-4" transform="translate(4.082962, 40.495450)">
+                    <g id="编组-2备份-4" transform="translate(24.199628, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="4.09336347"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#FA7169"
+                        x="0"
+                        y="6.82507583"
+                        width="10.0059996"
+                        height="10.0101112"
+                      ></rect>
+                    </g>
+                    <text
+                      id="5131"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.779575329" y="16.0050556">5131</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="编组-22备份" transform="translate(311.014502, 560.496461)">
+                  <polygon
+                    id="矩形备份-57"
+                    fill="#5596C6"
+                    points="32.3871769 2.33466302e-14 34.2064495 2.33466302e-14 34.2064495 175.176946 32.3871769 175.176946"
+                  ></polygon>
+                  <g id="编组-25" transform="translate(10.167373, 131.496461)">
+                    <g id="编组-21" transform="translate(19.036077, 66.430738)">
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.82002022"
+                        cx="4.09336347"
+                        cy="9.10010111"
+                        rx="3.18335336"
+                        ry="3.18503539"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-58"
+                        fill="#5596C6"
+                        points="3.18372714 0 5.00299979 8.04438024e-15 5.00299979 18.2002022 3.18372714 18.2002022"
+                      ></polygon>
+                    </g>
+                    <polygon
+                      id="矩形备份-55"
+                      fill="#5596C6"
+                      points="22.2198043 80.5358948 24.0390769 80.5358948 24.0390769 108.291203 22.2198043 108.291203"
+                    ></polygon>
+                    <g id="编组备份">
+                      <polygon
+                        id="矩形备份-51"
+                        fill="#5596C6"
+                        points="3.18540917 0 23.1974083 0 23.1974083 1.82002022 3.18540917 1.82002022"
+                      ></polygon>
+                      <g
+                        id="编组-8备份-4"
+                        transform="translate(4.095046, 21.840243) rotate(-270.000000) translate(-4.095046, -21.840243) translate(-17.736226, 17.745197)"
+                      >
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.90165269e-14 3.18503539 9.55118142 3.18503539 9.55118142 5.00505561 2.90165269e-14 5.00505561"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-25"
+                          fill="#5596C6"
+                          points="14.0993631 3.18503539 21.8312718 3.18503539 21.8312718 5.00505561 14.0993631 5.00505561"
+                        ></polygon>
+                        <rect
+                          id="矩形备份-12"
+                          fill="#5596C6"
+                          x="9.09636326"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <g id="圆+黑白间隔" transform="translate(21.376454, -0.000000)">
+                          <mask id="mask-38" fill="white">
+                            <use xlink:href="#path-37"></use>
+                          </mask>
+                          <g id="蒙版"></g>
+                          <ellipse
+                            id="椭圆形"
+                            stroke="#5596C6"
+                            stroke-width="0.910010111"
+                            mask="url(#mask-38)"
+                            cx="4.09336347"
+                            cy="4.0950455"
+                            rx="3.63835841"
+                            ry="3.64004044"
+                          ></ellipse>
+                          <g id="编组-22" mask="url(#mask-38)" fill="#5596C6">
+                            <g
+                              transform="translate(4.093741, 4.145902) rotate(-45.000000) translate(-4.093741, -4.145902) translate(0.270160, 0.321284)"
+                            >
+                              <rect
+                                id="矩形"
+                                x="3.40444192"
+                                y="0.148349373"
+                                width="1"
+                                height="7.28008089"
+                              ></rect>
+                              <polygon
+                                id="矩形备份-22"
+                                transform="translate(3.859260, 3.788390) rotate(-270.000000) translate(-3.859260, -3.788390) "
+                                points="3.40425503 0.149844514 4.31426514 0.149844514 4.31426514 7.42693512 3.40425503 7.42693512"
+                              ></polygon>
+                              <polygon
+                                id="路径-2"
+                                points="6.43236718 1.21475968 4.16578981 -9.35889289e-14 3.85926009 3.78838982 7.64716198 3.74685284"
+                              ></polygon>
+                              <polygon
+                                id="路径-2备份"
+                                transform="translate(1.893951, 5.755041) rotate(-180.000000) translate(-1.893951, -5.755041) "
+                                points="2.5731071 5.07560561 0.306529724 3.86084592 -4.21187562e-14 7.64923574 3.7879019 7.60769876"
+                              ></polygon>
+                            </g>
+                          </g>
+                        </g>
+                        <g
+                          id="编组-3备份-3"
+                          transform="translate(28.653544, 0.455005)"
+                          fill="#5596C6"
+                        >
+                          <polygon
+                            id="矩形"
+                            points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                          ></polygon>
+                          <rect
+                            id="矩形"
+                            x="6.82227245"
+                            y="-3.16068529e-13"
+                            width="1.81927265"
+                            height="7.28008089"
+                          ></rect>
+                          <rect
+                            id="矩形备份-4"
+                            x="10.0059996"
+                            y="0.910010111"
+                            width="1.81927265"
+                            height="5.46006067"
+                          ></rect>
+                          <rect
+                            id="矩形备份-5"
+                            x="13.1897267"
+                            y="1.82002022"
+                            width="1.81927265"
+                            height="3.64004044"
+                          ></rect>
+                        </g>
+                        <rect
+                          id="矩形备份-13"
+                          fill="#5596C6"
+                          x="13.6445449"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                      </g>
+                    </g>
+                    <g
+                      id="编组-4备份-2"
+                      transform="translate(36.933064, 34.806345) scale(-1, 1) translate(-36.933064, -34.806345) translate(22.378136, 13.650152)"
+                    >
+                      <g
+                        id="编组-10"
+                        transform="translate(3.640040, 15.242669) rotate(-270.000000) translate(-3.640040, -15.242669) translate(-8.867459, 11.602629)"
+                      >
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          x="9.32405268"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <g id="编组-15" transform="translate(9.096363, 0.541910)" fill="#5596C6">
+                          <polygon
+                            id="矩形备份-23"
+                            points="-6.10989012e-15 2.15892619 6.36745428 2.15892619 6.36745428 3.52394136 -6.10989012e-15 3.52394136"
+                          ></polygon>
+                          <polygon
+                            id="路径备份"
+                            transform="translate(7.006198, 2.913698) scale(-1, 1) rotate(-135.000000) translate(-7.006198, -2.913698) "
+                            points="4.94592455 2.00021454 9.06647051 0.853379847 7.91972573 4.97401572"
+                          ></polygon>
+                        </g>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.5948398e-14 2.73003033 9.09636326 2.73003033 9.09636326 4.55005056 2.5948398e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                      <g
+                        id="编组-3备份"
+                        transform="translate(3.640040, 34.807887) rotate(-270.000000) translate(-3.640040, -34.807887) translate(-3.864459, 31.167846)"
+                        fill="#5596C6"
+                      >
+                        <polygon
+                          id="矩形"
+                          points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                        ></polygon>
+                        <rect
+                          id="矩形"
+                          x="6.82227245"
+                          y="-3.18326353e-13"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <rect
+                          id="矩形备份-4"
+                          x="10.0059996"
+                          y="0.910010111"
+                          width="1.81927265"
+                          height="5.46006067"
+                        ></rect>
+                        <rect
+                          id="矩形备份-5"
+                          x="13.1897267"
+                          y="1.82002022"
+                          width="1.81927265"
+                          height="3.64004044"
+                        ></rect>
+                      </g>
+                      <g id="编组-3" transform="translate(2.730404, 0.000000)">
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          transform="translate(13.189727, 3.640040) rotate(-180.000000) translate(-13.189727, -3.640040) "
+                          x="5.68550738"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="7.73190877"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <ellipse
+                          id="椭圆形备份"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="18.6475447"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          transform="translate(23.650544, 3.640040) rotate(-180.000000) translate(-23.650544, -3.640040) "
+                          points="20.9216355 2.73003033 26.3794535 2.73003033 26.3794535 4.55005056 20.9216355 4.55005056"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-26"
+                          fill="#5596C6"
+                          transform="translate(2.728909, 3.640040) rotate(-180.000000) translate(-2.728909, -3.640040) "
+                          points="1.55690388e-14 2.73003033 5.45781796 2.73003033 5.45781796 4.55005056 1.55690388e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                    </g>
+                    <g id="编组-6备份-11" transform="translate(17.677346, 43.225480)">
+                      <mask id="mask-40" fill="white">
+                        <use xlink:href="#path-39"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-40)">
+                        <g transform="translate(0.908588, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                            points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-7备份-8" transform="translate(0.000000, 6.370071)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-7备份-9" transform="translate(0.017584, 77.816250)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-28备份-10" transform="translate(32.545508, 28.665319)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-12" transform="translate(32.545508, 65.975733)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-11" transform="translate(32.545508, 100.101112)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-4" transform="translate(4.108405, 40.495450)">
+                    <g id="编组-2备份-4" transform="translate(24.199628, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="4.09336347"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#FA7169"
+                        x="0"
+                        y="6.82507583"
+                        width="10.0059996"
+                        height="10.0101112"
+                      ></rect>
+                    </g>
+                    <text
+                      id="5131"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.779575329" y="16.0050556">5131</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="编组-22备份-3" transform="translate(507.410757, 560.496461)">
+                  <polygon
+                    id="矩形备份-57"
+                    fill="#5596C6"
+                    points="32.3871769 2.33466302e-14 34.2064495 2.33466302e-14 34.2064495 175.176946 32.3871769 175.176946"
+                  ></polygon>
+                  <g id="编组-25" transform="translate(10.167373, 131.496461)">
+                    <g id="编组-21" transform="translate(19.036077, 66.430738)">
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.82002022"
+                        cx="4.09336347"
+                        cy="9.10010111"
+                        rx="3.18335336"
+                        ry="3.18503539"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-58"
+                        fill="#5596C6"
+                        points="3.18372714 0 5.00299979 8.04438024e-15 5.00299979 18.2002022 3.18372714 18.2002022"
+                      ></polygon>
+                    </g>
+                    <polygon
+                      id="矩形备份-55"
+                      fill="#5596C6"
+                      points="22.2198043 80.5358948 24.0390769 80.5358948 24.0390769 108.291203 22.2198043 108.291203"
+                    ></polygon>
+                    <g id="编组备份">
+                      <polygon
+                        id="矩形备份-51"
+                        fill="#5596C6"
+                        points="3.18540917 0 23.1974083 0 23.1974083 1.82002022 3.18540917 1.82002022"
+                      ></polygon>
+                      <g
+                        id="编组-8备份-4"
+                        transform="translate(4.095046, 21.840243) rotate(-270.000000) translate(-4.095046, -21.840243) translate(-17.736226, 17.745197)"
+                      >
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.90165269e-14 3.18503539 9.55118142 3.18503539 9.55118142 5.00505561 2.90165269e-14 5.00505561"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-25"
+                          fill="#5596C6"
+                          points="14.0993631 3.18503539 21.8312718 3.18503539 21.8312718 5.00505561 14.0993631 5.00505561"
+                        ></polygon>
+                        <rect
+                          id="矩形备份-12"
+                          fill="#5596C6"
+                          x="9.09636326"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <g id="圆+黑白间隔" transform="translate(21.376454, -0.000000)">
+                          <mask id="mask-42" fill="white">
+                            <use xlink:href="#path-41"></use>
+                          </mask>
+                          <g id="蒙版"></g>
+                          <ellipse
+                            id="椭圆形"
+                            stroke="#5596C6"
+                            stroke-width="0.910010111"
+                            mask="url(#mask-42)"
+                            cx="4.09336347"
+                            cy="4.0950455"
+                            rx="3.63835841"
+                            ry="3.64004044"
+                          ></ellipse>
+                          <g id="编组-22" mask="url(#mask-42)" fill="#5596C6">
+                            <g
+                              transform="translate(4.093741, 4.145902) rotate(-45.000000) translate(-4.093741, -4.145902) translate(0.270160, 0.321284)"
+                            >
+                              <rect
+                                id="矩形"
+                                x="3.40444192"
+                                y="0.148349373"
+                                width="1"
+                                height="7.28008089"
+                              ></rect>
+                              <polygon
+                                id="矩形备份-22"
+                                transform="translate(3.859260, 3.788390) rotate(-270.000000) translate(-3.859260, -3.788390) "
+                                points="3.40425503 0.149844514 4.31426514 0.149844514 4.31426514 7.42693512 3.40425503 7.42693512"
+                              ></polygon>
+                              <polygon
+                                id="路径-2"
+                                points="6.43236718 1.21475968 4.16578981 -9.35889289e-14 3.85926009 3.78838982 7.64716198 3.74685284"
+                              ></polygon>
+                              <polygon
+                                id="路径-2备份"
+                                transform="translate(1.893951, 5.755041) rotate(-180.000000) translate(-1.893951, -5.755041) "
+                                points="2.5731071 5.07560561 0.306529724 3.86084592 -4.21187562e-14 7.64923574 3.7879019 7.60769876"
+                              ></polygon>
+                            </g>
+                          </g>
+                        </g>
+                        <g
+                          id="编组-3备份-3"
+                          transform="translate(28.653544, 0.455005)"
+                          fill="#5596C6"
+                        >
+                          <polygon
+                            id="矩形"
+                            points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                          ></polygon>
+                          <rect
+                            id="矩形"
+                            x="6.82227245"
+                            y="-3.16068529e-13"
+                            width="1.81927265"
+                            height="7.28008089"
+                          ></rect>
+                          <rect
+                            id="矩形备份-4"
+                            x="10.0059996"
+                            y="0.910010111"
+                            width="1.81927265"
+                            height="5.46006067"
+                          ></rect>
+                          <rect
+                            id="矩形备份-5"
+                            x="13.1897267"
+                            y="1.82002022"
+                            width="1.81927265"
+                            height="3.64004044"
+                          ></rect>
+                        </g>
+                        <rect
+                          id="矩形备份-13"
+                          fill="#5596C6"
+                          x="13.6445449"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                      </g>
+                    </g>
+                    <g
+                      id="编组-4备份-2"
+                      transform="translate(36.933064, 34.806345) scale(-1, 1) translate(-36.933064, -34.806345) translate(22.378136, 13.650152)"
+                    >
+                      <g
+                        id="编组-10"
+                        transform="translate(3.640040, 15.242669) rotate(-270.000000) translate(-3.640040, -15.242669) translate(-8.867459, 11.602629)"
+                      >
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          x="9.32405268"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <g id="编组-15" transform="translate(9.096363, 0.541910)" fill="#5596C6">
+                          <polygon
+                            id="矩形备份-23"
+                            points="-6.10989012e-15 2.15892619 6.36745428 2.15892619 6.36745428 3.52394136 -6.10989012e-15 3.52394136"
+                          ></polygon>
+                          <polygon
+                            id="路径备份"
+                            transform="translate(7.006198, 2.913698) scale(-1, 1) rotate(-135.000000) translate(-7.006198, -2.913698) "
+                            points="4.94592455 2.00021454 9.06647051 0.853379847 7.91972573 4.97401572"
+                          ></polygon>
+                        </g>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.5948398e-14 2.73003033 9.09636326 2.73003033 9.09636326 4.55005056 2.5948398e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                      <g
+                        id="编组-3备份"
+                        transform="translate(3.640040, 34.807887) rotate(-270.000000) translate(-3.640040, -34.807887) translate(-3.864459, 31.167846)"
+                        fill="#5596C6"
+                      >
+                        <polygon
+                          id="矩形"
+                          points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                        ></polygon>
+                        <rect
+                          id="矩形"
+                          x="6.82227245"
+                          y="-3.18326353e-13"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <rect
+                          id="矩形备份-4"
+                          x="10.0059996"
+                          y="0.910010111"
+                          width="1.81927265"
+                          height="5.46006067"
+                        ></rect>
+                        <rect
+                          id="矩形备份-5"
+                          x="13.1897267"
+                          y="1.82002022"
+                          width="1.81927265"
+                          height="3.64004044"
+                        ></rect>
+                      </g>
+                      <g id="编组-3" transform="translate(2.730404, 0.000000)">
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          transform="translate(13.189727, 3.640040) rotate(-180.000000) translate(-13.189727, -3.640040) "
+                          x="5.68550738"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="7.73190877"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <ellipse
+                          id="椭圆形备份"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="18.6475447"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          transform="translate(23.650544, 3.640040) rotate(-180.000000) translate(-23.650544, -3.640040) "
+                          points="20.9216355 2.73003033 26.3794535 2.73003033 26.3794535 4.55005056 20.9216355 4.55005056"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-26"
+                          fill="#5596C6"
+                          transform="translate(2.728909, 3.640040) rotate(-180.000000) translate(-2.728909, -3.640040) "
+                          points="1.55690388e-14 2.73003033 5.45781796 2.73003033 5.45781796 4.55005056 1.55690388e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                    </g>
+                    <g id="编组-6备份-11" transform="translate(17.677346, 43.225480)">
+                      <mask id="mask-44" fill="white">
+                        <use xlink:href="#path-43"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-44)">
+                        <g transform="translate(0.908588, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                            points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-7备份-8" transform="translate(0.000000, 6.370071)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-7备份-9" transform="translate(0.017584, 77.816250)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-28备份-10" transform="translate(32.545508, 28.665319)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-12" transform="translate(32.545508, 65.975733)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-11" transform="translate(32.545508, 100.101112)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-4" transform="translate(4.108405, 40.495450)">
+                    <g id="编组-2备份-4" transform="translate(24.199628, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="4.09336347"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#FA7169"
+                        x="0"
+                        y="6.82507583"
+                        width="10.0059996"
+                        height="10.0101112"
+                      ></rect>
+                    </g>
+                    <text
+                      id="5131"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.779575329" y="16.0050556">5131</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="编组-22备份-5" transform="translate(604.710043, 560.496461)">
+                  <polygon
+                    id="矩形备份-57"
+                    fill="#5596C6"
+                    points="32.3923495 2.33466302e-14 34.2116221 2.33466302e-14 34.2116221 175.176946 32.3923495 175.176946"
+                  ></polygon>
+                  <g id="编组-28" transform="translate(11.014214, 131.496461)">
+                    <g id="编组-21" transform="translate(18.194409, 66.430738)">
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.82002022"
+                        cx="4.09336347"
+                        cy="9.10010111"
+                        rx="3.18335336"
+                        ry="3.18503539"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-58"
+                        fill="#5596C6"
+                        points="3.18372714 0 5.00299979 8.04438024e-15 5.00299979 18.2002022 3.18372714 18.2002022"
+                      ></polygon>
+                    </g>
+                    <g id="编组备份">
+                      <polygon
+                        id="矩形备份-51"
+                        fill="#5596C6"
+                        points="3.18540917 0 23.1974083 0 23.1974083 1.82002022 3.18540917 1.82002022"
+                      ></polygon>
+                      <g
+                        id="编组-8备份-4"
+                        transform="translate(4.095046, 21.840243) rotate(-270.000000) translate(-4.095046, -21.840243) translate(-17.736226, 17.745197)"
+                      >
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.90165269e-14 3.18503539 9.55118142 3.18503539 9.55118142 5.00505561 2.90165269e-14 5.00505561"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-25"
+                          fill="#5596C6"
+                          points="14.0993631 3.18503539 21.8312718 3.18503539 21.8312718 5.00505561 14.0993631 5.00505561"
+                        ></polygon>
+                        <rect
+                          id="矩形备份-12"
+                          fill="#5596C6"
+                          x="9.09636326"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <g id="圆+黑白间隔" transform="translate(21.376454, 0.000000)">
+                          <mask id="mask-46" fill="white">
+                            <use xlink:href="#path-45"></use>
+                          </mask>
+                          <g id="蒙版"></g>
+                          <ellipse
+                            id="椭圆形"
+                            stroke="#5596C6"
+                            stroke-width="0.910010111"
+                            mask="url(#mask-46)"
+                            cx="4.09336347"
+                            cy="4.0950455"
+                            rx="3.63835841"
+                            ry="3.64004044"
+                          ></ellipse>
+                          <g id="编组-22" mask="url(#mask-46)" fill="#5596C6">
+                            <g
+                              transform="translate(4.093741, 4.145902) rotate(-45.000000) translate(-4.093741, -4.145902) translate(0.270160, 0.321284)"
+                            >
+                              <rect
+                                id="矩形"
+                                x="3.40444192"
+                                y="0.148349373"
+                                width="1"
+                                height="7.28008089"
+                              ></rect>
+                              <polygon
+                                id="矩形备份-22"
+                                transform="translate(3.859260, 3.788390) rotate(-270.000000) translate(-3.859260, -3.788390) "
+                                points="3.40425503 0.149844514 4.31426514 0.149844514 4.31426514 7.42693512 3.40425503 7.42693512"
+                              ></polygon>
+                              <polygon
+                                id="路径-2"
+                                points="6.43236718 1.21475968 4.16578981 -9.35889289e-14 3.85926009 3.78838982 7.64716198 3.74685284"
+                              ></polygon>
+                              <polygon
+                                id="路径-2备份"
+                                transform="translate(1.893951, 5.755041) rotate(-180.000000) translate(-1.893951, -5.755041) "
+                                points="2.5731071 5.07560561 0.306529724 3.86084592 -4.21187562e-14 7.64923574 3.7879019 7.60769876"
+                              ></polygon>
+                            </g>
+                          </g>
+                        </g>
+                        <g
+                          id="编组-3备份-3"
+                          transform="translate(28.653544, 0.455005)"
+                          fill="#5596C6"
+                        >
+                          <polygon
+                            id="矩形"
+                            points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                          ></polygon>
+                          <rect
+                            id="矩形"
+                            x="6.82227245"
+                            y="0"
+                            width="1.81927265"
+                            height="7.28008089"
+                          ></rect>
+                          <rect
+                            id="矩形备份-4"
+                            x="10.0059996"
+                            y="0.910010111"
+                            width="1.81927265"
+                            height="5.46006067"
+                          ></rect>
+                          <rect
+                            id="矩形备份-5"
+                            x="13.1897267"
+                            y="1.82002022"
+                            width="1.81927265"
+                            height="3.64004044"
+                          ></rect>
+                        </g>
+                        <rect
+                          id="矩形备份-13"
+                          fill="#5596C6"
+                          x="13.6445449"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                      </g>
+                    </g>
+                    <g
+                      id="编组-4备份-2"
+                      transform="translate(35.933064, 34.806345) scale(-1, 1) translate(-35.933064, -34.806345) translate(21.378136, 13.650152)"
+                    >
+                      <g
+                        id="编组-10"
+                        transform="translate(3.640040, 15.242669) rotate(-270.000000) translate(-3.640040, -15.242669) translate(-8.867459, 11.602629)"
+                      >
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          x="9.32405268"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <g id="编组-15" transform="translate(9.096363, 0.541910)" fill="#5596C6">
+                          <polygon
+                            id="矩形备份-23"
+                            points="-6.10989012e-15 2.15892619 6.36745428 2.15892619 6.36745428 3.52394136 -6.10989012e-15 3.52394136"
+                          ></polygon>
+                          <polygon
+                            id="路径备份"
+                            transform="translate(7.006198, 2.913698) scale(-1, 1) rotate(-135.000000) translate(-7.006198, -2.913698) "
+                            points="4.94592455 2.00021454 9.06647051 0.853379847 7.91972573 4.97401572"
+                          ></polygon>
+                        </g>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.5948398e-14 2.73003033 9.09636326 2.73003033 9.09636326 4.55005056 2.5948398e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                      <g
+                        id="编组-3备份"
+                        transform="translate(3.640040, 34.807887) rotate(-270.000000) translate(-3.640040, -34.807887) translate(-3.864459, 31.167846)"
+                        fill="#5596C6"
+                      >
+                        <polygon
+                          id="矩形"
+                          points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                        ></polygon>
+                        <rect
+                          id="矩形"
+                          x="6.82227245"
+                          y="-3.18326353e-13"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <rect
+                          id="矩形备份-4"
+                          x="10.0059996"
+                          y="0.910010111"
+                          width="1.81927265"
+                          height="5.46006067"
+                        ></rect>
+                        <rect
+                          id="矩形备份-5"
+                          x="13.1897267"
+                          y="1.82002022"
+                          width="1.81927265"
+                          height="3.64004044"
+                        ></rect>
+                      </g>
+                      <g id="编组-3" transform="translate(2.730404, 0.000000)">
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          transform="translate(13.189727, 3.640040) rotate(-180.000000) translate(-13.189727, -3.640040) "
+                          x="5.68550738"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="7.73190877"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <ellipse
+                          id="椭圆形备份"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="18.6475447"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          transform="translate(23.650544, 3.640040) rotate(-180.000000) translate(-23.650544, -3.640040) "
+                          points="20.9216355 2.73003033 26.3794535 2.73003033 26.3794535 4.55005056 20.9216355 4.55005056"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-26"
+                          fill="#5596C6"
+                          transform="translate(2.728909, 3.640040) rotate(-180.000000) translate(-2.728909, -3.640040) "
+                          points="1.55690388e-14 2.73003033 5.45781796 2.73003033 5.45781796 4.55005056 1.55690388e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                    </g>
+                    <g id="编组-6备份-11" transform="translate(16.829954, 43.225480)">
+                      <mask id="mask-48" fill="white">
+                        <use xlink:href="#path-47"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-48)">
+                        <g transform="translate(0.908588, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                            points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-32备份" transform="translate(27.844168, 215.674078)">
+                    <g id="编组-23" transform="translate(1.362772, 0.000000)">
+                      <g
+                        id="站用变备份"
+                        transform="translate(4.095046, 11.373444) rotate(-180.000000) translate(-4.095046, -11.373444) translate(0.001682, 7.278399)"
+                      >
+                        <mask id="mask-50" fill="white">
+                          <use xlink:href="#path-49"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-50)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-50)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-50)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变-变低"
+                        transform="translate(4.095046, 4.093363) rotate(-90.000000) translate(-4.095046, -4.093363) translate(0.001682, -0.001682)"
+                      >
+                        <mask id="mask-52" fill="white">
+                          <use xlink:href="#path-51"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-52)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polygon
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          stroke-linejoin="round"
+                          mask="url(#mask-52)"
+                          transform="translate(3.615289, 4.072180) rotate(-135.000000) translate(-3.615289, -4.072180) "
+                          points="5.20743574 5.23956236 2.02314186 5.66432728 2.44790678 2.48003341"
+                        ></polygon>
+                      </g>
+                      <polygon
+                        id="矩形备份-40"
+                        fill="#5596C6"
+                        points="4.0950455 10.4634342 20.4684994 10.4634342 20.4684994 11.3734444 4.0950455 11.3734444"
+                      ></polygon>
+                      <g id="编组-21备份" transform="translate(17.284772, 10.463434)">
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="2.72890898"
+                          cy="5.46006067"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <polygon
+                          id="矩形备份-58"
+                          fill="#5596C6"
+                          points="2.27409082 0 3.18372714 4.82662814e-15 3.18372714 10.9201213 2.27409082 10.9201213"
+                        ></polygon>
+                      </g>
+                      <polygon
+                        id="矩形备份-41"
+                        fill="#5596C6"
+                        transform="translate(11.893451, 28.804161) rotate(-44.000000) translate(-11.893451, -28.804161) "
+                        points="0.570291621 28.1853681 23.2167968 28.5131236 23.21661 29.4229534 0.570104843 29.0951979"
+                      ></polygon>
+                    </g>
+                    <g id="编组-6备份-12" transform="translate(0.000000, 14.558480)">
+                      <mask id="mask-54" fill="white">
+                        <use xlink:href="#path-53"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-54)">
+                        <g transform="translate(0.908588, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                            points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 33.2153691 3.63959396 33.2153691"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-7备份-8" transform="translate(0.005173, 6.370071)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-7备份-9" transform="translate(0.000000, 77.805865)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-28备份-10" transform="translate(33.550681, 28.665319)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-12" transform="translate(33.550681, 65.975733)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-11" transform="translate(33.550681, 100.101112)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-4" transform="translate(4.082962, 40.495450)">
+                    <g id="编组-2备份-4" transform="translate(24.199628, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="4.09336347"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#FA7169"
+                        x="0"
+                        y="6.82507583"
+                        width="10.0059996"
+                        height="10.0101112"
+                      ></rect>
+                    </g>
+                    <text
+                      id="5131"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.779575329" y="16.0050556">5131</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="编组-22备份-4" transform="translate(703.410757, 560.496461)">
+                  <polygon
+                    id="矩形备份-57"
+                    fill="#5596C6"
+                    points="32.3871769 2.33466302e-14 34.2064495 2.33466302e-14 34.2064495 175.176946 32.3871769 175.176946"
+                  ></polygon>
+                  <g id="编组-25" transform="translate(10.167373, 131.496461)">
+                    <g id="编组-21" transform="translate(19.036077, 66.430738)">
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.82002022"
+                        cx="4.09336347"
+                        cy="9.10010111"
+                        rx="3.18335336"
+                        ry="3.18503539"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-58"
+                        fill="#5596C6"
+                        points="3.18372714 0 5.00299979 8.04438024e-15 5.00299979 18.2002022 3.18372714 18.2002022"
+                      ></polygon>
+                    </g>
+                    <polygon
+                      id="矩形备份-55"
+                      fill="#5596C6"
+                      points="22.2198043 80.5358948 24.0390769 80.5358948 24.0390769 108.291203 22.2198043 108.291203"
+                    ></polygon>
+                    <g id="编组备份">
+                      <polygon
+                        id="矩形备份-51"
+                        fill="#5596C6"
+                        points="3.18540917 0 23.1974083 0 23.1974083 1.82002022 3.18540917 1.82002022"
+                      ></polygon>
+                      <g
+                        id="编组-8备份-4"
+                        transform="translate(4.095046, 21.840243) rotate(-270.000000) translate(-4.095046, -21.840243) translate(-17.736226, 17.745197)"
+                      >
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.90165269e-14 3.18503539 9.55118142 3.18503539 9.55118142 5.00505561 2.90165269e-14 5.00505561"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-25"
+                          fill="#5596C6"
+                          points="14.0993631 3.18503539 21.8312718 3.18503539 21.8312718 5.00505561 14.0993631 5.00505561"
+                        ></polygon>
+                        <rect
+                          id="矩形备份-12"
+                          fill="#5596C6"
+                          x="9.09636326"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <g id="圆+黑白间隔" transform="translate(21.376454, -0.000000)">
+                          <mask id="mask-56" fill="white">
+                            <use xlink:href="#path-55"></use>
+                          </mask>
+                          <g id="蒙版"></g>
+                          <ellipse
+                            id="椭圆形"
+                            stroke="#5596C6"
+                            stroke-width="0.910010111"
+                            mask="url(#mask-56)"
+                            cx="4.09336347"
+                            cy="4.0950455"
+                            rx="3.63835841"
+                            ry="3.64004044"
+                          ></ellipse>
+                          <g id="编组-22" mask="url(#mask-56)" fill="#5596C6">
+                            <g
+                              transform="translate(4.093741, 4.145902) rotate(-45.000000) translate(-4.093741, -4.145902) translate(0.270160, 0.321284)"
+                            >
+                              <rect
+                                id="矩形"
+                                x="3.40444192"
+                                y="0.148349373"
+                                width="1"
+                                height="7.28008089"
+                              ></rect>
+                              <polygon
+                                id="矩形备份-22"
+                                transform="translate(3.859260, 3.788390) rotate(-270.000000) translate(-3.859260, -3.788390) "
+                                points="3.40425503 0.149844514 4.31426514 0.149844514 4.31426514 7.42693512 3.40425503 7.42693512"
+                              ></polygon>
+                              <polygon
+                                id="路径-2"
+                                points="6.43236718 1.21475968 4.16578981 -9.35889289e-14 3.85926009 3.78838982 7.64716198 3.74685284"
+                              ></polygon>
+                              <polygon
+                                id="路径-2备份"
+                                transform="translate(1.893951, 5.755041) rotate(-180.000000) translate(-1.893951, -5.755041) "
+                                points="2.5731071 5.07560561 0.306529724 3.86084592 -4.21187562e-14 7.64923574 3.7879019 7.60769876"
+                              ></polygon>
+                            </g>
+                          </g>
+                        </g>
+                        <g
+                          id="编组-3备份-3"
+                          transform="translate(28.653544, 0.455005)"
+                          fill="#5596C6"
+                        >
+                          <polygon
+                            id="矩形"
+                            points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                          ></polygon>
+                          <rect
+                            id="矩形"
+                            x="6.82227245"
+                            y="-3.16068529e-13"
+                            width="1.81927265"
+                            height="7.28008089"
+                          ></rect>
+                          <rect
+                            id="矩形备份-4"
+                            x="10.0059996"
+                            y="0.910010111"
+                            width="1.81927265"
+                            height="5.46006067"
+                          ></rect>
+                          <rect
+                            id="矩形备份-5"
+                            x="13.1897267"
+                            y="1.82002022"
+                            width="1.81927265"
+                            height="3.64004044"
+                          ></rect>
+                        </g>
+                        <rect
+                          id="矩形备份-13"
+                          fill="#5596C6"
+                          x="13.6445449"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                      </g>
+                    </g>
+                    <g
+                      id="编组-4备份-2"
+                      transform="translate(36.933064, 34.806345) scale(-1, 1) translate(-36.933064, -34.806345) translate(22.378136, 13.650152)"
+                    >
+                      <g
+                        id="编组-10"
+                        transform="translate(3.640040, 15.242669) rotate(-270.000000) translate(-3.640040, -15.242669) translate(-8.867459, 11.602629)"
+                      >
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          x="9.32405268"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <g id="编组-15" transform="translate(9.096363, 0.541910)" fill="#5596C6">
+                          <polygon
+                            id="矩形备份-23"
+                            points="-6.10989012e-15 2.15892619 6.36745428 2.15892619 6.36745428 3.52394136 -6.10989012e-15 3.52394136"
+                          ></polygon>
+                          <polygon
+                            id="路径备份"
+                            transform="translate(7.006198, 2.913698) scale(-1, 1) rotate(-135.000000) translate(-7.006198, -2.913698) "
+                            points="4.94592455 2.00021454 9.06647051 0.853379847 7.91972573 4.97401572"
+                          ></polygon>
+                        </g>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.5948398e-14 2.73003033 9.09636326 2.73003033 9.09636326 4.55005056 2.5948398e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                      <g
+                        id="编组-3备份"
+                        transform="translate(3.640040, 34.807887) rotate(-270.000000) translate(-3.640040, -34.807887) translate(-3.864459, 31.167846)"
+                        fill="#5596C6"
+                      >
+                        <polygon
+                          id="矩形"
+                          points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                        ></polygon>
+                        <rect
+                          id="矩形"
+                          x="6.82227245"
+                          y="-3.18326353e-13"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <rect
+                          id="矩形备份-4"
+                          x="10.0059996"
+                          y="0.910010111"
+                          width="1.81927265"
+                          height="5.46006067"
+                        ></rect>
+                        <rect
+                          id="矩形备份-5"
+                          x="13.1897267"
+                          y="1.82002022"
+                          width="1.81927265"
+                          height="3.64004044"
+                        ></rect>
+                      </g>
+                      <g id="编组-3" transform="translate(2.730404, 0.000000)">
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          transform="translate(13.189727, 3.640040) rotate(-180.000000) translate(-13.189727, -3.640040) "
+                          x="5.68550738"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="7.73190877"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <ellipse
+                          id="椭圆形备份"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="18.6475447"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          transform="translate(23.650544, 3.640040) rotate(-180.000000) translate(-23.650544, -3.640040) "
+                          points="20.9216355 2.73003033 26.3794535 2.73003033 26.3794535 4.55005056 20.9216355 4.55005056"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-26"
+                          fill="#5596C6"
+                          transform="translate(2.728909, 3.640040) rotate(-180.000000) translate(-2.728909, -3.640040) "
+                          points="1.55690388e-14 2.73003033 5.45781796 2.73003033 5.45781796 4.55005056 1.55690388e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                    </g>
+                    <g id="编组-6备份-11" transform="translate(17.677346, 43.225480)">
+                      <mask id="mask-58" fill="white">
+                        <use xlink:href="#path-57"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-58)">
+                        <g transform="translate(0.908588, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                            points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-7备份-8" transform="translate(0.000000, 6.370071)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-7备份-9" transform="translate(0.017584, 77.816250)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-28备份-10" transform="translate(32.545508, 28.665319)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-12" transform="translate(32.545508, 65.975733)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-11" transform="translate(32.545508, 100.101112)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-4" transform="translate(4.108405, 40.495450)">
+                    <g id="编组-2备份-4" transform="translate(24.199628, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="4.09336347"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#FA7169"
+                        x="0"
+                        y="6.82507583"
+                        width="10.0059996"
+                        height="10.0101112"
+                      ></rect>
+                    </g>
+                    <text
+                      id="5131"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.779575329" y="16.0050556">5131</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="编组-22备份-7" transform="translate(800.710043, 560.496461)">
+                  <polygon
+                    id="矩形备份-57"
+                    fill="#5596C6"
+                    points="32.3923495 2.33466302e-14 34.2116221 2.33466302e-14 34.2116221 175.176946 32.3923495 175.176946"
+                  ></polygon>
+                  <g id="编组-28" transform="translate(11.014214, 131.496461)">
+                    <g id="编组-21" transform="translate(18.194409, 66.430738)">
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.82002022"
+                        cx="4.09336347"
+                        cy="9.10010111"
+                        rx="3.18335336"
+                        ry="3.18503539"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-58"
+                        fill="#5596C6"
+                        points="3.18372714 0 5.00299979 8.04438024e-15 5.00299979 18.2002022 3.18372714 18.2002022"
+                      ></polygon>
+                    </g>
+                    <g id="编组备份">
+                      <polygon
+                        id="矩形备份-51"
+                        fill="#5596C6"
+                        points="3.18540917 0 23.1974083 0 23.1974083 1.82002022 3.18540917 1.82002022"
+                      ></polygon>
+                      <g
+                        id="编组-8备份-4"
+                        transform="translate(4.095046, 21.840243) rotate(-270.000000) translate(-4.095046, -21.840243) translate(-17.736226, 17.745197)"
+                      >
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.90165269e-14 3.18503539 9.55118142 3.18503539 9.55118142 5.00505561 2.90165269e-14 5.00505561"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-25"
+                          fill="#5596C6"
+                          points="14.0993631 3.18503539 21.8312718 3.18503539 21.8312718 5.00505561 14.0993631 5.00505561"
+                        ></polygon>
+                        <rect
+                          id="矩形备份-12"
+                          fill="#5596C6"
+                          x="9.09636326"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <g id="圆+黑白间隔" transform="translate(21.376454, 0.000000)">
+                          <mask id="mask-60" fill="white">
+                            <use xlink:href="#path-59"></use>
+                          </mask>
+                          <g id="蒙版"></g>
+                          <ellipse
+                            id="椭圆形"
+                            stroke="#5596C6"
+                            stroke-width="0.910010111"
+                            mask="url(#mask-60)"
+                            cx="4.09336347"
+                            cy="4.0950455"
+                            rx="3.63835841"
+                            ry="3.64004044"
+                          ></ellipse>
+                          <g id="编组-22" mask="url(#mask-60)" fill="#5596C6">
+                            <g
+                              transform="translate(4.093741, 4.145902) rotate(-45.000000) translate(-4.093741, -4.145902) translate(0.270160, 0.321284)"
+                            >
+                              <rect
+                                id="矩形"
+                                x="3.40444192"
+                                y="0.148349373"
+                                width="1"
+                                height="7.28008089"
+                              ></rect>
+                              <polygon
+                                id="矩形备份-22"
+                                transform="translate(3.859260, 3.788390) rotate(-270.000000) translate(-3.859260, -3.788390) "
+                                points="3.40425503 0.149844514 4.31426514 0.149844514 4.31426514 7.42693512 3.40425503 7.42693512"
+                              ></polygon>
+                              <polygon
+                                id="路径-2"
+                                points="6.43236718 1.21475968 4.16578981 -9.35889289e-14 3.85926009 3.78838982 7.64716198 3.74685284"
+                              ></polygon>
+                              <polygon
+                                id="路径-2备份"
+                                transform="translate(1.893951, 5.755041) rotate(-180.000000) translate(-1.893951, -5.755041) "
+                                points="2.5731071 5.07560561 0.306529724 3.86084592 -4.21187562e-14 7.64923574 3.7879019 7.60769876"
+                              ></polygon>
+                            </g>
+                          </g>
+                        </g>
+                        <g
+                          id="编组-3备份-3"
+                          transform="translate(28.653544, 0.455005)"
+                          fill="#5596C6"
+                        >
+                          <polygon
+                            id="矩形"
+                            points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                          ></polygon>
+                          <rect
+                            id="矩形"
+                            x="6.82227245"
+                            y="0"
+                            width="1.81927265"
+                            height="7.28008089"
+                          ></rect>
+                          <rect
+                            id="矩形备份-4"
+                            x="10.0059996"
+                            y="0.910010111"
+                            width="1.81927265"
+                            height="5.46006067"
+                          ></rect>
+                          <rect
+                            id="矩形备份-5"
+                            x="13.1897267"
+                            y="1.82002022"
+                            width="1.81927265"
+                            height="3.64004044"
+                          ></rect>
+                        </g>
+                        <rect
+                          id="矩形备份-13"
+                          fill="#5596C6"
+                          x="13.6445449"
+                          y="0.455005056"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                      </g>
+                    </g>
+                    <g
+                      id="编组-4备份-2"
+                      transform="translate(35.933064, 34.806345) scale(-1, 1) translate(-35.933064, -34.806345) translate(21.378136, 13.650152)"
+                    >
+                      <g
+                        id="编组-10"
+                        transform="translate(3.640040, 15.242669) rotate(-270.000000) translate(-3.640040, -15.242669) translate(-8.867459, 11.602629)"
+                      >
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          x="9.32405268"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <g id="编组-15" transform="translate(9.096363, 0.541910)" fill="#5596C6">
+                          <polygon
+                            id="矩形备份-23"
+                            points="-6.10989012e-15 2.15892619 6.36745428 2.15892619 6.36745428 3.52394136 -6.10989012e-15 3.52394136"
+                          ></polygon>
+                          <polygon
+                            id="路径备份"
+                            transform="translate(7.006198, 2.913698) scale(-1, 1) rotate(-135.000000) translate(-7.006198, -2.913698) "
+                            points="4.94592455 2.00021454 9.06647051 0.853379847 7.91972573 4.97401572"
+                          ></polygon>
+                        </g>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.5948398e-14 2.73003033 9.09636326 2.73003033 9.09636326 4.55005056 2.5948398e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                      <g
+                        id="编组-3备份"
+                        transform="translate(3.640040, 34.807887) rotate(-270.000000) translate(-3.640040, -34.807887) translate(-3.864459, 31.167846)"
+                        fill="#5596C6"
+                      >
+                        <polygon
+                          id="矩形"
+                          points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                        ></polygon>
+                        <rect
+                          id="矩形"
+                          x="6.82227245"
+                          y="-3.18326353e-13"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <rect
+                          id="矩形备份-4"
+                          x="10.0059996"
+                          y="0.910010111"
+                          width="1.81927265"
+                          height="5.46006067"
+                        ></rect>
+                        <rect
+                          id="矩形备份-5"
+                          x="13.1897267"
+                          y="1.82002022"
+                          width="1.81927265"
+                          height="3.64004044"
+                        ></rect>
+                      </g>
+                      <g id="编组-3" transform="translate(2.730404, 0.000000)">
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          transform="translate(13.189727, 3.640040) rotate(-180.000000) translate(-13.189727, -3.640040) "
+                          x="5.68550738"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="7.73190877"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <ellipse
+                          id="椭圆形备份"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="18.6475447"
+                          cy="3.64004044"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          transform="translate(23.650544, 3.640040) rotate(-180.000000) translate(-23.650544, -3.640040) "
+                          points="20.9216355 2.73003033 26.3794535 2.73003033 26.3794535 4.55005056 20.9216355 4.55005056"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-26"
+                          fill="#5596C6"
+                          transform="translate(2.728909, 3.640040) rotate(-180.000000) translate(-2.728909, -3.640040) "
+                          points="1.55690388e-14 2.73003033 5.45781796 2.73003033 5.45781796 4.55005056 1.55690388e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                    </g>
+                    <g id="编组-6备份-11" transform="translate(16.829954, 43.225480)">
+                      <mask id="mask-62" fill="white">
+                        <use xlink:href="#path-61"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-62)">
+                        <g transform="translate(0.908588, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                            points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-32备份-2" transform="translate(27.844168, 215.674078)">
+                    <g id="编组-23" transform="translate(1.362772, 0.000000)">
+                      <g
+                        id="站用变备份"
+                        transform="translate(4.095046, 11.373444) rotate(-180.000000) translate(-4.095046, -11.373444) translate(0.001682, 7.278399)"
+                      >
+                        <mask id="mask-64" fill="white">
+                          <use xlink:href="#path-63"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-64)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-64)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-64)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变-变低"
+                        transform="translate(4.095046, 4.093363) rotate(-90.000000) translate(-4.095046, -4.093363) translate(0.001682, -0.001682)"
+                      >
+                        <mask id="mask-66" fill="white">
+                          <use xlink:href="#path-65"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-66)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polygon
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          stroke-linejoin="round"
+                          mask="url(#mask-66)"
+                          transform="translate(3.615289, 4.072180) rotate(-135.000000) translate(-3.615289, -4.072180) "
+                          points="5.20743574 5.23956236 2.02314186 5.66432728 2.44790678 2.48003341"
+                        ></polygon>
+                      </g>
+                      <polygon
+                        id="矩形备份-40"
+                        fill="#5596C6"
+                        points="4.0950455 10.4634342 20.4684994 10.4634342 20.4684994 11.3734444 4.0950455 11.3734444"
+                      ></polygon>
+                      <g id="编组-21备份" transform="translate(17.284772, 10.463434)">
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          cx="2.72890898"
+                          cy="5.46006067"
+                          rx="2.04640139"
+                          ry="2.04752275"
+                        ></ellipse>
+                        <polygon
+                          id="矩形备份-58"
+                          fill="#5596C6"
+                          points="2.27409082 0 3.18372714 4.82662814e-15 3.18372714 10.9201213 2.27409082 10.9201213"
+                        ></polygon>
+                      </g>
+                      <polygon
+                        id="矩形备份-41"
+                        fill="#5596C6"
+                        transform="translate(11.893451, 28.804161) rotate(-44.000000) translate(-11.893451, -28.804161) "
+                        points="0.570291621 28.1853681 23.2167968 28.5131236 23.21661 29.4229534 0.570104843 29.0951979"
+                      ></polygon>
+                    </g>
+                    <g id="编组-6备份-12" transform="translate(0.000000, 14.558480)">
+                      <mask id="mask-68" fill="white">
+                        <use xlink:href="#path-67"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-68)">
+                        <g transform="translate(0.908588, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                            points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 33.2153691 3.63959396 33.2153691"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-7备份-8" transform="translate(0.005173, 6.370071)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-7备份-9" transform="translate(0.000000, 77.805865)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-28备份-10" transform="translate(33.550681, 28.665319)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-12" transform="translate(33.550681, 65.975733)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-11" transform="translate(33.550681, 100.101112)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-4" transform="translate(4.082962, 40.495450)">
+                    <g id="编组-2备份-4" transform="translate(24.199628, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="4.09336347"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#FA7169"
+                        x="0"
+                        y="6.82507583"
+                        width="10.0059996"
+                        height="10.0101112"
+                      ></rect>
+                    </g>
+                    <text
+                      id="5131"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.779575329" y="16.0050556">5131</tspan>
+                    </text>
+                  </g>
+                </g>
+                <g id="编组-24" transform="translate(903.187750, 560.496461)">
+                  <polygon
+                    id="矩形备份-61"
+                    fill="#5596C6"
+                    points="32.3871769 -3.18414017e-14 34.2064495 -3.18414017e-14 34.2064495 87.3609707 32.3871769 87.3609707"
+                  ></polygon>
+                  <g id="编组-7备份-10" transform="translate(0.000000, 29.575329)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-28备份-14" transform="translate(32.842406, 6.306456)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="30.1738275">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15" transform="translate(0.000000, 11.438742)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <g
+                      id="编组"
+                      transform="translate(21.149045, 6.433686) rotate(-315.000000) translate(-21.149045, -6.433686) translate(17.510499, 0.973625)"
+                    >
+                      <mask id="mask-70" fill="white">
+                        <use xlink:href="#path-69"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-15" mask="url(#mask-70)" fill="#5596C6">
+                        <g
+                          transform="translate(3.638545, 5.680824) rotate(-270.000000) translate(-3.638545, -5.680824) translate(-1.585127, 1.820020)"
+                        >
+                          <polygon
+                            id="矩形备份-23"
+                            points="-5.82329448e-14 2.9507938 6.82227245 2.9507938 6.82227245 4.77081402 -5.82329448e-14 4.77081402"
+                          ></polygon>
+                          <polygon
+                            id="路径备份"
+                            transform="translate(6.587556, 3.860804) scale(-1, 1) rotate(-135.000000) translate(-6.587556, -3.860804) "
+                            points="3.858303 2.65925961 9.31680945 1.13149127 7.78915994 6.59011655"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-15" transform="translate(32.842406, 51.870576)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-5" transform="translate(17.286729, 86.905966)">
+                    <g
+                      id="站用变"
+                      transform="translate(22.742403, 5.460061) rotate(-180.000000) translate(-22.742403, -5.460061) translate(18.649040, 1.365015)"
+                    >
+                      <mask id="mask-72" fill="white">
+                        <use xlink:href="#path-71"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-72)"
+                        cx="4.09336347"
+                        cy="4.0950455"
+                        rx="3.63835841"
+                        ry="3.64004044"
+                      ></ellipse>
+                      <polyline
+                        id="路径"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-72)"
+                        transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                        points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                      ></polyline>
+                      <line
+                        x1="4.09336347"
+                        y1="4.3939175"
+                        x2="4.09336347"
+                        y2="7.69832203"
+                        id="路径-2"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-72)"
+                      ></line>
+                    </g>
+                    <g
+                      id="站用变备份-2"
+                      transform="translate(15.465313, 4.095046) rotate(-180.000000) translate(-15.465313, -4.095046) translate(11.371949, 0.000000)"
+                    >
+                      <mask id="mask-74" fill="white">
+                        <use xlink:href="#path-73"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-74)"
+                        cx="4.09336347"
+                        cy="4.0950455"
+                        rx="3.63835841"
+                        ry="3.64004044"
+                      ></ellipse>
+                      <polyline
+                        id="路径"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-74)"
+                        transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                        points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                      ></polyline>
+                      <line
+                        x1="4.09336347"
+                        y1="4.3939175"
+                        x2="4.09336347"
+                        y2="7.69832203"
+                        id="路径-2"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-74)"
+                      ></line>
+                    </g>
+                    <polygon
+                      id="矩形备份-42"
+                      fill="#5596C6"
+                      points="2.73040412 3.18503539 15.4653127 3.18503539 15.4653127 4.18503539 2.73040412 4.18503539"
+                    ></polygon>
+                    <g
+                      id="站用变备份"
+                      transform="translate(11.371949, 10.010111) rotate(-180.000000) translate(-11.371949, -10.010111) translate(7.278586, 5.915066)"
+                    >
+                      <mask id="mask-76" fill="white">
+                        <use xlink:href="#path-75"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-76)"
+                        cx="4.09336347"
+                        cy="4.0950455"
+                        rx="3.63835841"
+                        ry="3.64004044"
+                      ></ellipse>
+                      <polyline
+                        id="路径"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-76)"
+                        transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                        points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                      ></polyline>
+                      <line
+                        x1="4.09336347"
+                        y1="4.3939175"
+                        x2="4.09336347"
+                        y2="7.69832203"
+                        id="路径-2"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-76)"
+                      ></line>
+                    </g>
+                    <g
+                      id="站用变备份-3"
+                      transform="translate(18.649040, 11.830131) rotate(-180.000000) translate(-18.649040, -11.830131) translate(14.555676, 7.735086)"
+                    >
+                      <mask id="mask-78" fill="white">
+                        <use xlink:href="#path-77"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-78)"
+                        cx="4.09336347"
+                        cy="4.0950455"
+                        rx="3.63835841"
+                        ry="3.64004044"
+                      ></ellipse>
+                      <polyline
+                        id="路径"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-78)"
+                        transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                        points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                      ></polyline>
+                      <line
+                        x1="4.09336347"
+                        y1="4.3939175"
+                        x2="4.09336347"
+                        y2="7.69832203"
+                        id="路径-2"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-78)"
+                      ></line>
+                    </g>
+                    <g
+                      id="站用变-变低"
+                      transform="translate(25.926130, 11.830131) rotate(-270.000000) translate(-25.926130, -11.830131) translate(21.832767, 7.735086)"
+                    >
+                      <mask id="mask-80" fill="white">
+                        <use xlink:href="#path-79"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-80)"
+                        cx="4.09336347"
+                        cy="4.0950455"
+                        rx="3.63835841"
+                        ry="3.64004044"
+                      ></ellipse>
+                      <polygon
+                        id="路径"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        stroke-linejoin="round"
+                        mask="url(#mask-80)"
+                        transform="translate(3.615289, 4.072180) rotate(-135.000000) translate(-3.615289, -4.072180) "
+                        points="5.20743574 5.23956236 2.02314186 5.66432728 2.44790678 2.48003341"
+                      ></polygon>
+                    </g>
+                    <g
+                      id="编组-3备份"
+                      transform="translate(3.640040, 23.432760) rotate(-270.000000) translate(-3.640040, -23.432760) translate(-3.864459, 19.792720)"
+                      fill="#5596C6"
+                    >
+                      <polygon
+                        id="矩形"
+                        points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                      ></polygon>
+                      <rect
+                        id="矩形"
+                        x="6.82227245"
+                        y="0"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        x="10.0059996"
+                        y="0.910010111"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        x="13.1897267"
+                        y="1.82002022"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                    </g>
+                    <polygon
+                      id="矩形备份-9"
+                      fill="#5596C6"
+                      points="2.73040412 3.18503539 4.54967677 3.18503539 4.54967677 19.5652174 2.73040412 19.5652174"
+                    ></polygon>
+                  </g>
+                </g>
+                <g id="编组-19" transform="translate(257.891005, 10.842859)">
+                  <polygon
+                    id="矩形备份-54"
+                    fill="#5596C6"
+                    points="124.625036 5.45744417 126.444309 5.45744417 126.444309 63.6980913 124.625036 63.6980913"
+                  ></polygon>
+                  <polygon
+                    id="矩形备份-68"
+                    fill="#5596C6"
+                    points="0.00485920631 5.45744417 126.454732 5.45744417 126.454732 7.27746439 0.00485920631 7.27746439"
+                  ></polygon>
+                  <g
+                    id="编组-6备份-15"
+                    transform="translate(11.830131, 6.367454) rotate(-270.000000) translate(-11.830131, -6.367454) translate(5.462677, -5.462677)"
+                  >
+                    <mask id="mask-82" fill="white">
+                      <use xlink:href="#path-81"></use>
+                    </mask>
+                    <g id="蒙版"></g>
+                    <polygon
+                      id="矩形备份"
+                      fill="#5596C6"
+                      mask="url(#mask-82)"
+                      transform="translate(6.367454, 11.830131) rotate(-45.000000) translate(-6.367454, -11.830131) "
+                      points="2.72890898 8.19158614 8.49974061 9.69784512 10.0059996 15.4686768 4.23516796 13.9624178"
+                    ></polygon>
+                    <polygon
+                      id="矩形备份-59"
+                      fill="#5596C6"
+                      mask="url(#mask-82)"
+                      points="5.45781796 14.1051567 7.27709061 14.1051567 7.27709061 24.1152679 5.45781796 24.1152679"
+                    ></polygon>
+                    <polygon
+                      id="矩形备份-60"
+                      fill="#5596C6"
+                      mask="url(#mask-82)"
+                      points="5.45781796 -1.85427427e-13 7.27709061 -1.81204128e-13 7.27709061 9.55510617 5.45781796 9.55510617"
+                    ></polygon>
+                  </g>
+                  <g id="编组-7备份-7" transform="translate(92.237859, 16.377566)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-28备份-9" transform="translate(124.625036, 38.672813)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-29" transform="translate(119.167218, 62.788081)">
+                    <g id="编组-9备份">
+                      <g
+                        id="编组-6备份-6"
+                        transform="translate(6.367454, 35.035389) rotate(-360.000000) translate(-6.367454, -35.035389) translate(0.909636, 23.205258)"
+                      >
+                        <mask id="mask-84" fill="white">
+                          <use xlink:href="#path-83"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <g id="编组-6" mask="url(#mask-84)">
+                          <g transform="translate(0.908588, 0.000000)">
+                            <polygon
+                              id="矩形备份-53"
+                              stroke="none"
+                              fill="#5596C6"
+                              fill-rule="evenodd"
+                              points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                            ></polygon>
+                            <polygon
+                              id="路径"
+                              stroke="#5596C6"
+                              stroke-width="1.82002022"
+                              fill="none"
+                              stroke-linejoin="round"
+                              transform="translate(4.534609, 10.451304) rotate(-45.000000) translate(-4.534609, -10.451304) "
+                              points="7.74106232 12.8495789 1.32815632 13.6577566 2.13633397 7.24485057"
+                            ></polygon>
+                            <polygon
+                              id="矩形备份-55"
+                              stroke="none"
+                              fill="#5596C6"
+                              fill-rule="evenodd"
+                              points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                            ></polygon>
+                          </g>
+                        </g>
+                      </g>
+                      <g
+                        id="编组-6备份-8"
+                        transform="translate(6.367454, 11.830131) rotate(-360.000000) translate(-6.367454, -11.830131) "
+                      >
+                        <mask id="mask-86" fill="white">
+                          <use xlink:href="#path-85"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <polygon
+                          id="矩形备份"
+                          stroke="#5596C6"
+                          stroke-width="1.82002022"
+                          stroke-linejoin="round"
+                          mask="url(#mask-86)"
+                          transform="translate(6.367454, 11.830131) rotate(-45.000000) translate(-6.367454, -11.830131) "
+                          points="2.72890898 8.19158614 8.49974061 9.69784512 10.0059996 15.4686768 4.23516796 13.9624178"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-11"
+                          fill="#5596C6"
+                          mask="url(#mask-86)"
+                          transform="translate(6.367454, 11.830131) rotate(-45.000000) translate(-6.367454, -11.830131) "
+                          points="2.72890898 8.19158614 10.0059996 15.4686768 4.23516796 13.9624178"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-59"
+                          fill="#5596C6"
+                          mask="url(#mask-86)"
+                          points="5.45781796 14.1051567 7.27709061 14.1051567 7.27709061 24.1152679 5.45781796 24.1152679"
+                        ></polygon>
+                        <polygon
+                          id="矩形备份-60"
+                          fill="#5596C6"
+                          mask="url(#mask-86)"
+                          points="5.45781796 0 7.27709061 4.22329963e-15 7.27709061 9.55510617 5.45781796 9.55510617"
+                        ></polygon>
+                      </g>
+                      <g
+                        id="编组-6备份-7"
+                        transform="translate(6.367454, 57.785642) rotate(-180.000000) translate(-6.367454, -57.785642) translate(0.909636, 45.955511)"
+                      >
+                        <mask id="mask-88" fill="white">
+                          <use xlink:href="#path-87"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <g id="编组-6" mask="url(#mask-88)">
+                          <g transform="translate(0.937830, 0.000000)">
+                            <polygon
+                              id="矩形备份-53"
+                              stroke="none"
+                              fill="#5596C6"
+                              fill-rule="evenodd"
+                              points="3.59992897 0 5.41920163 4.42440913e-15 5.41920163 10.0101112 3.59992897 10.0101112"
+                            ></polygon>
+                            <polygon
+                              id="路径"
+                              stroke="#5596C6"
+                              stroke-width="1.82002022"
+                              fill="none"
+                              stroke-linejoin="round"
+                              transform="translate(4.534609, 10.480558) rotate(-45.000000) translate(-4.534609, -10.480558) "
+                              points="7.74106232 12.8788329 1.32815632 13.6870105 2.13633397 7.27410452"
+                            ></polygon>
+                            <polygon
+                              id="矩形备份-55"
+                              stroke="none"
+                              fill="#5596C6"
+                              fill-rule="evenodd"
+                              points="3.59992897 13.6501517 5.41920163 13.6501517 5.41920163 23.6602629 3.59992897 23.6602629"
+                            ></polygon>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                    <path
+                      d="M-6.14518475,79.8533873 L5.6849467,79.8533873 L5.6849467,75.7600238 C3.42331552,75.7600238 1.5899012,77.592685 1.5899012,79.8533873 C1.5899012,82.1140895 3.42331552,83.9467507 5.6849467,83.9467507 C7.94657788,83.9467507 9.7799922,82.1140895 9.7799922,79.8533873 L18.8800933,79.8533873"
+                      id="路径"
+                      stroke="#5596C6"
+                      stroke-width="1.82002022"
+                      transform="translate(6.367454, 79.853387) scale(-1, -1) rotate(-270.000000) translate(-6.367454, -79.853387) "
+                    ></path>
+                  </g>
+                </g>
+                <g id="编组-14" transform="translate(75.878235, 0.000000)">
+                  <g id="编组-33" transform="translate(0.000000, 376.744186)">
+                    <g id="编组-8" transform="translate(0.000000, 105.106168)">
+                      <g id="编组-6备份-2" transform="translate(176.469447, 0.000000)">
+                        <mask id="mask-90" fill="white">
+                          <use xlink:href="#path-89"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <g id="编组-6" mask="url(#mask-90)">
+                          <g transform="translate(0.908588, 0.000000)">
+                            <polygon
+                              id="矩形备份-53"
+                              stroke="none"
+                              fill="#5596C6"
+                              fill-rule="evenodd"
+                              points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                            ></polygon>
+                            <polygon
+                              id="路径"
+                              stroke="#5596C6"
+                              stroke-width="1.82002022"
+                              fill="none"
+                              stroke-linejoin="round"
+                              transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                              points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                            ></polygon>
+                            <polygon
+                              id="矩形备份-55"
+                              stroke="none"
+                              fill="#5596C6"
+                              fill-rule="evenodd"
+                              points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                            ></polygon>
+                          </g>
+                        </g>
+                      </g>
+                      <g id="编组-6备份-4" transform="translate(161.915266, 0.000000)">
+                        <mask id="mask-92" fill="white">
+                          <use xlink:href="#path-91"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <g id="编组-6" mask="url(#mask-92)">
+                          <g transform="translate(0.908588, 0.000000)">
+                            <polygon
+                              id="矩形备份-53"
+                              stroke="none"
+                              fill="#5596C6"
+                              fill-rule="evenodd"
+                              points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                            ></polygon>
+                            <polygon
+                              id="路径"
+                              stroke="#5596C6"
+                              stroke-width="1.82002022"
+                              fill="none"
+                              stroke-linejoin="round"
+                              transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                              points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                            ></polygon>
+                            <polygon
+                              id="矩形备份-55"
+                              stroke="none"
+                              fill="#5596C6"
+                              fill-rule="evenodd"
+                              points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                            ></polygon>
+                          </g>
+                        </g>
+                      </g>
+                      <g
+                        id="编组-6备份-5"
+                        transform="translate(134.171358, 22.750253) rotate(-90.000000) translate(-134.171358, -22.750253) translate(128.713540, 10.920121)"
+                      >
+                        <mask id="mask-94" fill="white">
+                          <use xlink:href="#path-93"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <g id="编组-6" mask="url(#mask-94)">
+                          <g transform="translate(0.960406, -0.000000)">
+                            <polygon
+                              id="矩形备份-53"
+                              stroke="none"
+                              fill="#5596C6"
+                              fill-rule="evenodd"
+                              points="3.56930533 -2.11399181e-13 5.38857798 -2.06974772e-13 5.38857798 10.0101112 3.56930533 10.0101112"
+                            ></polygon>
+                            <polygon
+                              id="路径"
+                              stroke="#5596C6"
+                              stroke-width="1.82002022"
+                              fill="none"
+                              stroke-linejoin="round"
+                              transform="translate(4.523321, 10.440006) rotate(-45.000000) translate(-4.523321, -10.440006) "
+                              points="7.72179212 12.8143355 1.32485008 13.6384771 2.14899168 7.24153504"
+                            ></polygon>
+                            <polygon
+                              id="矩形备份-55"
+                              stroke="none"
+                              fill="#5596C6"
+                              fill-rule="evenodd"
+                              points="3.56930533 13.6501517 5.38857798 13.6501517 5.38857798 23.6602629 3.56930533 23.6602629"
+                            ></polygon>
+                          </g>
+                        </g>
+                      </g>
+                      <g id="编组-6备份-3" transform="translate(191.023628, 0.000000)">
+                        <mask id="mask-96" fill="white">
+                          <use xlink:href="#path-95"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <g id="编组-6" mask="url(#mask-96)">
+                          <g transform="translate(0.908588, 0.000000)">
+                            <polygon
+                              id="矩形备份-53"
+                              stroke="none"
+                              fill="#5596C6"
+                              fill-rule="evenodd"
+                              points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                            ></polygon>
+                            <polygon
+                              id="路径"
+                              stroke="#5596C6"
+                              stroke-width="1.82002022"
+                              fill="none"
+                              stroke-linejoin="round"
+                              transform="translate(4.503519, 10.420187) rotate(-45.000000) translate(-4.503519, -10.420187) "
+                              points="7.68798741 12.7525098 1.31905011 13.6046561 2.17119645 7.2357188"
+                            ></polygon>
+                            <polygon
+                              id="矩形备份-55"
+                              stroke="none"
+                              fill="#5596C6"
+                              fill-rule="evenodd"
+                              points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                            ></polygon>
+                          </g>
+                        </g>
+                      </g>
+                      <polygon
+                        id="矩形备份-30"
+                        fill="#5596C6"
+                        transform="translate(181.927265, 0.910010) rotate(-180.000000) translate(-181.927265, -0.910010) "
+                        points="166.463448 0 197.391083 0 197.391083 1.82002022 166.463448 1.82002022"
+                      ></polygon>
+                      <polygon
+                        id="矩形备份-31"
+                        fill="#5596C6"
+                        transform="translate(156.912266, 22.750253) rotate(-180.000000) translate(-156.912266, -22.750253) "
+                        points="145.541812 21.8402427 168.28272 21.8402427 168.28272 23.6602629 145.541812 23.6602629"
+                      ></polygon>
+                      <polygon
+                        id="矩形备份-32"
+                        fill="#5596C6"
+                        transform="translate(117.343086, 22.750253) rotate(-180.000000) translate(-117.343086, -22.750253) "
+                        points="111.885268 21.8402427 122.800904 21.8402427 122.800904 23.6602629 111.885268 23.6602629"
+                      ></polygon>
+                      <polygon
+                        id="矩形备份-33"
+                        fill="#5596C6"
+                        transform="translate(71.861270, 22.750253) rotate(-180.000000) translate(-71.861270, -22.750253) "
+                        points="66.4034518 21.8402427 77.3190877 21.8402427 77.3190877 23.6602629 66.4034518 23.6602629"
+                      ></polygon>
+                      <g id="部件1" transform="translate(76.409451, 4.550051)">
+                        <mask id="mask-98" fill="white">
+                          <use xlink:href="#path-97"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="1.82002022"
+                          mask="url(#mask-98)"
+                          cx="18.1927265"
+                          cy="18.2002022"
+                          rx="17.2827164"
+                          ry="17.2901921"
+                        ></ellipse>
+                        <g
+                          id="编组-7"
+                          mask="url(#mask-98)"
+                          stroke="#5596C6"
+                          stroke-width="1.82002022"
+                        >
+                          <g transform="translate(3.925505, 3.370195)">
+                            <polyline
+                              id="路径-2备份-6"
+                              transform="translate(19.868024, 19.831010) scale(-1, 1) rotate(2.000000) translate(-19.868024, -19.831010) "
+                              points="17.2821739 25.1448395 14.553207 21.2000005 25.1828409 14.5171812"
+                            ></polyline>
+                            <polyline
+                              id="路径-2备份-7"
+                              transform="translate(7.185497, 16.906044) scale(-1, 1) rotate(-118.000000) translate(-7.185497, -16.906044) "
+                              points="4.59995636 22.2175576 1.86950152 18.2735541 12.5014932 11.5945296"
+                            ></polyline>
+                            <polyline
+                              id="路径-2备份-8"
+                              transform="translate(15.931071, 7.352951) scale(-1, 1) rotate(-237.000000) translate(-15.931071, -7.352951) "
+                              points="13.3430038 12.666046 10.6140462 8.72289605 21.2480966 2.03985661"
+                            ></polyline>
+                          </g>
+                        </g>
+                      </g>
+                      <polyline
+                        id="路径-5"
+                        stroke="#5596C6"
+                        stroke-width="1.82002022"
+                        transform="translate(40.023998, 22.750253) scale(1, -1) rotate(-90.000000) translate(-40.023998, -22.750253) "
+                        points="40.0239983 -5.44847333 40.0239983 11.8346169 30.0138871 11.8346169 30.0138871 17.747253 50.0341096 17.747253 50.0341096 23.2050709 30.0138871 23.2050709 30.0138871 29.1177071 50.0341096 29.1177071 50.0341096 36.3947977 40.0239983 36.3947977 40.0239983 50.9489789"
+                      ></polyline>
+                      <g
+                        id="编组-3备份"
+                        transform="translate(7.504500, 22.750253) rotate(-180.000000) translate(-7.504500, -22.750253) translate(0.000000, 19.110212)"
+                        fill="#5596C6"
+                      >
+                        <polygon
+                          id="矩形"
+                          points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                        ></polygon>
+                        <rect
+                          id="矩形"
+                          x="6.82227245"
+                          y="0"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <rect
+                          id="矩形备份-4"
+                          x="10.0059996"
+                          y="0.910010111"
+                          width="1.81927265"
+                          height="5.46006067"
+                        ></rect>
+                        <rect
+                          id="矩形备份-5"
+                          x="13.1897267"
+                          y="1.82002022"
+                          width="1.81927265"
+                          height="3.64004044"
+                        ></rect>
+                      </g>
+                    </g>
+                    <polygon
+                      id="矩形备份-50"
+                      fill="#5596C6"
+                      points="181.017629 72.8008089 182.836902 72.8008089 182.836902 107.836198 181.017629 107.836198"
+                    ></polygon>
+                    <g id="编组-46备份-2" transform="translate(163.734539, 0.000000)">
+                      <polygon
+                        id="矩形备份-65"
+                        fill="#5596C6"
+                        points="17.2830902 0 19.1023628 4.02219012e-15 19.1023628 9.10010111 17.2830902 9.10010111"
+                      ></polygon>
+                      <g id="编组-20" transform="translate(0.000000, 8.976374)">
+                        <g id="主变备份">
+                          <mask id="mask-100" fill="white">
+                            <use xlink:href="#path-99"></use>
+                          </mask>
+                          <g id="蒙版"></g>
+                          <ellipse
+                            id="椭圆形"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            mask="url(#mask-100)"
+                            cx="18.1927265"
+                            cy="18.2002022"
+                            rx="17.2827164"
+                            ry="17.2901921"
+                          ></ellipse>
+                          <g
+                            id="编组-21"
+                            mask="url(#mask-100)"
+                            stroke="#5596C6"
+                            stroke-width="1.68520391"
+                          >
+                            <g transform="translate(6.822272, 6.370071)">
+                              <line
+                                x1="11.3368296"
+                                y1="2.4277009e-14"
+                                x2="11.3368296"
+                                y2="12.300067"
+                                id="路径-2"
+                              ></line>
+                              <line
+                                x1="-7.25437814e-14"
+                                y1="18.6552073"
+                                x2="11.5393606"
+                                y2="11.9722322"
+                                id="路径-2备份-2"
+                              ></line>
+                              <line
+                                x1="11.2015476"
+                                y1="18.6552073"
+                                x2="22.7409082"
+                                y2="11.9722322"
+                                id="路径-2备份-3"
+                                transform="translate(16.971228, 15.313720) scale(-1, 1) translate(-16.971228, -15.313720) "
+                              ></line>
+                            </g>
+                          </g>
+                        </g>
+                        <g id="主变备份-2" transform="translate(25.000000, 18.200202)">
+                          <mask id="mask-102" fill="white">
+                            <use xlink:href="#path-101"></use>
+                          </mask>
+                          <g id="蒙版"></g>
+                          <ellipse
+                            id="椭圆形"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            mask="url(#mask-102)"
+                            cx="18.1927265"
+                            cy="18.2002022"
+                            rx="17.2827164"
+                            ry="17.2901921"
+                          ></ellipse>
+                          <g
+                            id="编组-21"
+                            mask="url(#mask-102)"
+                            stroke="#5596C6"
+                            stroke-width="1.68520391"
+                          >
+                            <g transform="translate(6.822272, 6.370071)">
+                              <line
+                                x1="11.3368296"
+                                y1="2.4277009e-14"
+                                x2="11.3368296"
+                                y2="12.300067"
+                                id="路径-2"
+                              ></line>
+                              <line
+                                x1="-7.25437814e-14"
+                                y1="18.6552073"
+                                x2="11.5393606"
+                                y2="11.9722322"
+                                id="路径-2备份-2"
+                              ></line>
+                              <line
+                                x1="11.2015476"
+                                y1="18.6552073"
+                                x2="22.7409082"
+                                y2="11.9722322"
+                                id="路径-2备份-3"
+                                transform="translate(16.971228, 15.313720) scale(-1, 1) translate(-16.971228, -15.313720) "
+                              ></line>
+                            </g>
+                          </g>
+                        </g>
+                        <g id="主变备份" transform="translate(0.000000, 29.120324)">
+                          <mask id="mask-104" fill="white">
+                            <use xlink:href="#path-103"></use>
+                          </mask>
+                          <g id="蒙版"></g>
+                          <ellipse
+                            id="椭圆形"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            mask="url(#mask-104)"
+                            cx="18.1927265"
+                            cy="18.2002022"
+                            rx="17.2827164"
+                            ry="17.2901921"
+                          ></ellipse>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            stroke-linejoin="round"
+                            mask="url(#mask-104)"
+                            transform="translate(18.192727, 22.292843) rotate(-225.000000) translate(-18.192727, -22.292843) "
+                            points="27.7461325 29.2898102 8.63932056 31.8462492 11.1957596 12.7394373"
+                          ></polygon>
+                        </g>
+                      </g>
+                      <g id="编组-47" transform="translate(18.192727, 23.205258)" fill="#5596C6">
+                        <rect
+                          id="矩形备份-67"
+                          x="0"
+                          y="2.73003033"
+                          width="50.4848161"
+                          height="1.82002022"
+                        ></rect>
+                        <g id="编组-3备份-4" transform="translate(48.210725, 0.000000)">
+                          <polygon
+                            id="矩形"
+                            points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                          ></polygon>
+                          <rect
+                            id="矩形"
+                            x="6.82227245"
+                            y="0"
+                            width="1.81927265"
+                            height="7.28008089"
+                          ></rect>
+                          <rect
+                            id="矩形备份-4"
+                            x="10.0059996"
+                            y="0.910010111"
+                            width="1.81927265"
+                            height="5.46006067"
+                          ></rect>
+                          <rect
+                            id="矩形备份-5"
+                            x="13.1897267"
+                            y="1.82002022"
+                            width="1.81927265"
+                            height="3.64004044"
+                          ></rect>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-16" transform="translate(104.153359, 504.600607)" fill="#5596C6">
+                    <polygon
+                      id="矩形备份-35"
+                      transform="translate(38.886953, 17.320526) rotate(-180.000000) translate(-38.886953, -17.320526) "
+                      points="2.21858803e-13 16.4105157 77.7739059 16.4105157 77.7739059 18.2305359 2.21858803e-13 18.2305359"
+                    ></polygon>
+                    <rect
+                      id="矩形备份-2"
+                      x="0"
+                      y="16.4105157"
+                      width="1.81927265"
+                      height="23.6602629"
+                    ></rect>
+                    <polygon
+                      id="矩形备份-3"
+                      points="76.8642696 -1.65017577e-13 78.6835422 -1.65017577e-13 78.6835422 18.2305359 76.8642696 18.2305359"
+                    ></polygon>
+                  </g>
+                  <g id="编组-17" transform="translate(111.885268, 504.600607)" fill="#5596C6">
+                    <polygon
+                      id="矩形备份-36"
+                      transform="translate(42.752907, 25.055612) rotate(-180.000000) translate(-42.752907, -25.055612) "
+                      points="2.43914941e-13 24.1456016 85.5058147 24.1456016 85.5058147 25.9656218 2.43914941e-13 25.9656218"
+                    ></polygon>
+                    <rect
+                      id="矩形备份-7"
+                      x="0"
+                      y="25.1456016"
+                      width="1.81927265"
+                      height="15.9251769"
+                    ></rect>
+                    <polygon
+                      id="矩形备份-8"
+                      points="83.686542 7.10569845e-13 85.5058147 7.10569845e-13 85.5058147 25.9656218 83.686542 25.9656218"
+                    ></polygon>
+                  </g>
+                  <polygon
+                    id="矩形"
+                    fill="#5596C6"
+                    transform="translate(181.472447, 403.589484) rotate(-293.000000) translate(-181.472447, -403.589484) "
+                    points="180.558461 376.298548 182.378367 376.298817 182.386433 430.880421 180.566527 430.880152"
+                  ></polygon>
+                  <g id="编组-9" transform="translate(175.559811, 307.583418)">
+                    <g
+                      id="编组-6备份-6"
+                      transform="translate(6.367454, 35.035389) rotate(-360.000000) translate(-6.367454, -35.035389) translate(0.909636, 23.205258)"
+                    >
+                      <mask id="mask-106" fill="white">
+                        <use xlink:href="#path-105"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-106)">
+                        <g transform="translate(0.908588, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 0 5.45886661 4.42440913e-15 5.45886661 10.0101112 3.63959396 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.534609, 10.451304) rotate(-45.000000) translate(-4.534609, -10.451304) "
+                            points="7.74106232 12.8495789 1.32815632 13.6577566 2.13633397 7.24485057"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.63959396 13.6501517 5.45886661 13.6501517 5.45886661 23.6602629 3.63959396 23.6602629"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                    <g
+                      id="编组-6备份-8"
+                      transform="translate(6.367454, 11.830131) rotate(-360.000000) translate(-6.367454, -11.830131) "
+                    >
+                      <mask id="mask-108" fill="white">
+                        <use xlink:href="#path-107"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <polygon
+                        id="矩形备份"
+                        fill="#5596C6"
+                        mask="url(#mask-108)"
+                        transform="translate(6.367454, 11.830131) rotate(-45.000000) translate(-6.367454, -11.830131) "
+                        points="2.72890898 8.19158614 8.49974061 9.69784512 10.0059996 15.4686768 4.23516796 13.9624178"
+                      ></polygon>
+                      <polygon
+                        id="矩形备份-59"
+                        fill="#5596C6"
+                        mask="url(#mask-108)"
+                        points="5.45781796 14.1051567 7.27709061 14.1051567 7.27709061 24.1152679 5.45781796 24.1152679"
+                      ></polygon>
+                      <polygon
+                        id="矩形备份-60"
+                        fill="#5596C6"
+                        mask="url(#mask-108)"
+                        points="5.45781796 0 7.27709061 4.22329963e-15 7.27709061 9.55510617 5.45781796 9.55510617"
+                      ></polygon>
+                    </g>
+                    <g
+                      id="编组-6备份-7"
+                      transform="translate(6.367454, 57.785642) rotate(-180.000000) translate(-6.367454, -57.785642) translate(0.909636, 45.955511)"
+                    >
+                      <mask id="mask-110" fill="white">
+                        <use xlink:href="#path-109"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-6" mask="url(#mask-110)">
+                        <g transform="translate(0.937830, 0.000000)">
+                          <polygon
+                            id="矩形备份-53"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.59992897 0 5.41920163 4.42440913e-15 5.41920163 10.0101112 3.59992897 10.0101112"
+                          ></polygon>
+                          <polygon
+                            id="路径"
+                            stroke="#5596C6"
+                            stroke-width="1.82002022"
+                            fill="none"
+                            stroke-linejoin="round"
+                            transform="translate(4.534609, 10.480558) rotate(-45.000000) translate(-4.534609, -10.480558) "
+                            points="7.74106232 12.8788329 1.32815632 13.6870105 2.13633397 7.27410452"
+                          ></polygon>
+                          <polygon
+                            id="矩形备份-55"
+                            stroke="none"
+                            fill="#5596C6"
+                            fill-rule="evenodd"
+                            points="3.59992897 13.6501517 5.41920163 13.6501517 5.41920163 23.6602629 3.59992897 23.6602629"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g
+                    id="编组-8备份"
+                    transform="translate(168.282720, 300.758342) rotate(-180.000000) translate(-168.282720, -300.758342) translate(153.728539, 296.663296)"
+                  >
+                    <polygon
+                      id="矩形备份-24"
+                      fill="#5596C6"
+                      points="-4.3271412e-13 3.18503539 9.55118142 3.18503539 9.55118142 5.00505561 -4.3271412e-13 5.00505561"
+                    ></polygon>
+                    <polygon
+                      id="矩形备份-25"
+                      fill="#5596C6"
+                      points="13.6445449 3.18503539 21.3764537 3.18503539 21.3764537 5.00505561 13.6445449 5.00505561"
+                    ></polygon>
+                    <rect
+                      id="矩形备份-12"
+                      fill="#5596C6"
+                      x="9.09636326"
+                      y="0.455005056"
+                      width="1.81927265"
+                      height="7.28008089"
+                    ></rect>
+                    <g id="圆+叉" transform="translate(20.921636, 0.000000)">
+                      <mask id="mask-112" fill="white">
+                        <use xlink:href="#path-111"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="0.910010111"
+                        mask="url(#mask-112)"
+                        cx="4.09336347"
+                        cy="4.0950455"
+                        rx="3.63835841"
+                        ry="3.64004044"
+                      ></ellipse>
+                      <g id="编组-22" mask="url(#mask-112)" fill="#5596C6">
+                        <g
+                          transform="translate(4.093363, 4.095046) rotate(-45.000000) translate(-4.093363, -4.095046) translate(0.454818, 0.455005)"
+                        >
+                          <rect id="矩形" x="3.18372714" y="0" width="1" height="7.28008089"></rect>
+                          <polygon
+                            id="矩形备份-22"
+                            transform="translate(3.638545, 3.640040) rotate(-270.000000) translate(-3.638545, -3.640040) "
+                            points="3.18354025 0.0014951404 4.09355036 0.0014951404 4.09355036 7.27858575 3.18354025 7.27858575"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                    <rect
+                      id="矩形备份-13"
+                      fill="#5596C6"
+                      x="13.6445449"
+                      y="0.455005056"
+                      width="1.81927265"
+                      height="7.28008089"
+                    ></rect>
+                  </g>
+                  <polygon
+                    id="矩形备份-52"
+                    fill="#5596C6"
+                    points="181.017629 4.06663296e-14 182.836902 4.06663296e-14 182.836902 308.038423 181.017629 308.038423"
+                  ></polygon>
+                  <g id="编组-4" transform="translate(181.017629, 283.013145)">
+                    <g
+                      id="编组-11"
+                      transform="translate(48.893980, 3.640040) rotate(-90.000000) translate(-48.893980, -3.640040) translate(45.253940, -16.148568)"
+                    >
+                      <g
+                        id="编组-10"
+                        transform="translate(3.640040, 12.507499) rotate(-270.000000) translate(-3.640040, -12.507499) translate(-8.867459, 8.867459)"
+                      >
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          x="9.32405268"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <g id="编组-15" transform="translate(9.096363, 0.455770)" fill="#5596C6">
+                          <polygon
+                            id="矩形备份-23"
+                            points="3.95615757e-15 2.27426003 6.36745428 2.27426003 6.36745428 3.63927519 3.95615757e-15 3.63927519"
+                          ></polygon>
+                          <polygon
+                            id="路径备份"
+                            transform="translate(7.006198, 2.913698) scale(-1, 1) rotate(-135.000000) translate(-7.006198, -2.913698) "
+                            points="4.94592455 2.00021454 9.06647051 0.853379847 7.91972573 4.97401572"
+                          ></polygon>
+                        </g>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="3.60144457e-14 2.73003033 9.09636326 2.73003033 9.09636326 4.55005056 3.60144457e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                      <g
+                        id="编组-3备份"
+                        transform="translate(3.640040, 32.072717) rotate(-270.000000) translate(-3.640040, -32.072717) translate(-3.864459, 28.432676)"
+                        fill="#5596C6"
+                      >
+                        <polygon
+                          id="矩形"
+                          points="-8.06164283e-15 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -8.06164283e-15 4.55005056"
+                        ></polygon>
+                        <rect
+                          id="矩形"
+                          x="6.82227245"
+                          y="0"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <rect
+                          id="矩形备份-4"
+                          x="10.0059996"
+                          y="0.910010111"
+                          width="1.81927265"
+                          height="5.46006067"
+                        ></rect>
+                        <rect
+                          id="矩形备份-5"
+                          x="13.1897267"
+                          y="1.82002022"
+                          width="1.81927265"
+                          height="3.64004044"
+                        ></rect>
+                      </g>
+                    </g>
+                    <g id="编组-3" transform="translate(0.000000, 0.000000)">
+                      <rect
+                        id="矩形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        transform="translate(16.373454, 3.640040) rotate(-180.000000) translate(-16.373454, -3.640040) "
+                        x="8.86923452"
+                        y="0.682507583"
+                        width="15.0084387"
+                        height="5.91506572"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        cx="10.9156359"
+                        cy="3.64004044"
+                        rx="2.04640139"
+                        ry="2.04752275"
+                      ></ellipse>
+                      <ellipse
+                        id="椭圆形备份"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        cx="21.8312718"
+                        cy="3.64004044"
+                        rx="2.04640139"
+                        ry="2.04752275"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-24"
+                        fill="#5596C6"
+                        transform="translate(26.834272, 3.640040) rotate(-180.000000) translate(-26.834272, -3.640040) "
+                        points="24.1053626 2.73003033 29.5631806 2.73003033 29.5631806 4.55005056 24.1053626 4.55005056"
+                      ></polygon>
+                      <polygon
+                        id="矩形备份-26"
+                        fill="#5596C6"
+                        transform="translate(4.775591, 3.640040) rotate(-180.000000) translate(-4.775591, -3.640040) "
+                        points="2.72458179e-14 2.73003033 9.55118142 2.73003033 9.55118142 4.55005056 2.72458179e-14 4.55005056"
+                      ></polygon>
+                    </g>
+                  </g>
+                  <g id="编组-4备份" transform="translate(181.017629, 42.770475)">
+                    <g
+                      id="编组-11"
+                      transform="translate(48.893980, 3.640040) rotate(-90.000000) translate(-48.893980, -3.640040) translate(45.253940, -16.148568)"
+                    >
+                      <g
+                        id="编组-10"
+                        transform="translate(3.640040, 12.507499) rotate(-270.000000) translate(-3.640040, -12.507499) translate(-8.867459, 8.867459)"
+                      >
+                        <rect
+                          id="矩形"
+                          stroke="#5596C6"
+                          stroke-width="1.36501517"
+                          x="9.32405268"
+                          y="0.682507583"
+                          width="15.0084387"
+                          height="5.91506572"
+                        ></rect>
+                        <g id="编组-15" transform="translate(9.096363, 0.455770)" fill="#5596C6">
+                          <polygon
+                            id="矩形备份-23"
+                            points="-5.48863256e-14 2.27426003 6.36745428 2.27426003 6.36745428 3.63927519 -5.48863256e-14 3.63927519"
+                          ></polygon>
+                          <polygon
+                            id="路径备份"
+                            transform="translate(7.006198, 2.913698) scale(-1, 1) rotate(-135.000000) translate(-7.006198, -2.913698) "
+                            points="4.94592455 2.00021454 9.06647051 0.853379847 7.91972573 4.97401572"
+                          ></polygon>
+                        </g>
+                        <polygon
+                          id="矩形备份-24"
+                          fill="#5596C6"
+                          points="2.5948398e-14 2.73003033 9.09636326 2.73003033 9.09636326 4.55005056 2.5948398e-14 4.55005056"
+                        ></polygon>
+                      </g>
+                      <g
+                        id="编组-3备份"
+                        transform="translate(3.640040, 32.072717) rotate(-270.000000) translate(-3.640040, -32.072717) translate(-3.864459, 28.432676)"
+                        fill="#5596C6"
+                      >
+                        <polygon
+                          id="矩形"
+                          points="-6.6904126e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -6.6904126e-14 4.55005056"
+                        ></polygon>
+                        <rect
+                          id="矩形"
+                          x="6.82227245"
+                          y="0"
+                          width="1.81927265"
+                          height="7.28008089"
+                        ></rect>
+                        <rect
+                          id="矩形备份-4"
+                          x="10.0059996"
+                          y="0.910010111"
+                          width="1.81927265"
+                          height="5.46006067"
+                        ></rect>
+                        <rect
+                          id="矩形备份-5"
+                          x="13.1897267"
+                          y="1.82002022"
+                          width="1.81927265"
+                          height="3.64004044"
+                        ></rect>
+                      </g>
+                    </g>
+                    <g id="编组-3" transform="translate(0.000000, 0.000000)">
+                      <rect
+                        id="矩形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        transform="translate(16.373454, 3.640040) rotate(-180.000000) translate(-16.373454, -3.640040) "
+                        x="8.86923452"
+                        y="0.682507583"
+                        width="15.0084387"
+                        height="5.91506572"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        cx="10.9156359"
+                        cy="3.64004044"
+                        rx="2.04640139"
+                        ry="2.04752275"
+                      ></ellipse>
+                      <ellipse
+                        id="椭圆形备份"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        cx="21.8312718"
+                        cy="3.64004044"
+                        rx="2.04640139"
+                        ry="2.04752275"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-24"
+                        fill="#5596C6"
+                        transform="translate(26.834272, 3.640040) rotate(-180.000000) translate(-26.834272, -3.640040) "
+                        points="24.1053626 2.73003033 29.5631806 2.73003033 29.5631806 4.55005056 24.1053626 4.55005056"
+                      ></polygon>
+                      <polygon
+                        id="矩形备份-26"
+                        fill="#5596C6"
+                        transform="translate(4.775591, 3.640040) rotate(-180.000000) translate(-4.775591, -3.640040) "
+                        points="2.72458179e-14 2.73003033 9.55118142 2.73003033 9.55118142 4.55005056 2.72458179e-14 4.55005056"
+                      ></polygon>
+                    </g>
+                  </g>
+                  <g id="编组-13" transform="translate(181.017629, 245.702730)">
+                    <g id="编组-12" transform="translate(29.108362, 0.000000)">
+                      <g
+                        id="站用变"
+                        transform="translate(8.186727, 18.200202) rotate(-180.000000) translate(-8.186727, -18.200202) translate(4.093363, 14.105157)"
+                      >
+                        <mask id="mask-114" fill="white">
+                          <use xlink:href="#path-113"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-114)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-114)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-114)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变备份-2"
+                        transform="translate(4.093363, 11.375126) rotate(-180.000000) translate(-4.093363, -11.375126) translate(0.000000, 7.280081)"
+                      >
+                        <mask id="mask-116" fill="white">
+                          <use xlink:href="#path-115"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-116)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-116)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-116)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变备份"
+                        transform="translate(4.093363, 4.095046) rotate(-180.000000) translate(-4.093363, -4.095046) "
+                      >
+                        <mask id="mask-118" fill="white">
+                          <use xlink:href="#path-117"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-118)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-118)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-118)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变备份-3"
+                        transform="translate(11.370454, 11.375126) rotate(-180.000000) translate(-11.370454, -11.375126) translate(7.277091, 7.280081)"
+                      >
+                        <mask id="mask-120" fill="white">
+                          <use xlink:href="#path-119"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-120)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-120)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-120)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变-变低"
+                        transform="translate(11.370454, 4.095046) rotate(-360.000000) translate(-11.370454, -4.095046) translate(7.277091, 0.000000)"
+                      >
+                        <mask id="mask-122" fill="white">
+                          <use xlink:href="#path-121"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-122)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polygon
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          stroke-linejoin="round"
+                          mask="url(#mask-122)"
+                          transform="translate(3.615289, 4.072180) rotate(-135.000000) translate(-3.615289, -4.072180) "
+                          points="5.20743574 5.23956236 2.02314186 5.66432728 2.44790678 2.48003341"
+                        ></polygon>
+                      </g>
+                      <rect
+                        id="矩形备份-40"
+                        fill="#5596C6"
+                        x="3.6385453"
+                        y="10.9201213"
+                        width="1"
+                        height="14.5601618"
+                      ></rect>
+                    </g>
+                    <g id="编组-3备份" transform="translate(48.210725, 20.930233)" fill="#5596C6">
+                      <polygon
+                        id="矩形"
+                        points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                      ></polygon>
+                      <rect
+                        id="矩形"
+                        x="6.82227245"
+                        y="0"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        x="10.0059996"
+                        y="0.910010111"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        x="13.1897267"
+                        y="1.82002022"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                    </g>
+                    <polygon
+                      id="矩形备份-34"
+                      fill="#5596C6"
+                      transform="translate(40.706226, 24.570273) rotate(-180.000000) translate(-40.706226, -24.570273) "
+                      points="32.7469077 23.6602629 48.6655434 23.6602629 48.6655434 25.4802831 32.7469077 25.4802831"
+                    ></polygon>
+                    <g id="编组-3备份-5" transform="translate(0.000000, 7.735086)">
+                      <rect
+                        id="矩形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        transform="translate(16.373454, 3.640040) rotate(-180.000000) translate(-16.373454, -3.640040) "
+                        x="8.86923452"
+                        y="0.682507583"
+                        width="15.0084387"
+                        height="5.91506572"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        cx="10.9156359"
+                        cy="3.64004044"
+                        rx="2.04640139"
+                        ry="2.04752275"
+                      ></ellipse>
+                      <ellipse
+                        id="椭圆形备份"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        cx="21.8312718"
+                        cy="3.64004044"
+                        rx="2.04640139"
+                        ry="2.04752275"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-24"
+                        fill="#5596C6"
+                        transform="translate(26.834272, 3.640040) rotate(-180.000000) translate(-26.834272, -3.640040) "
+                        points="24.1053626 2.73003033 29.5631806 2.73003033 29.5631806 4.55005056 24.1053626 4.55005056"
+                      ></polygon>
+                      <polygon
+                        id="矩形备份-26"
+                        fill="#5596C6"
+                        transform="translate(4.775591, 3.640040) rotate(-180.000000) translate(-4.775591, -3.640040) "
+                        points="2.72458179e-14 2.73003033 9.55118142 2.73003033 9.55118142 4.55005056 2.72458179e-14 4.55005056"
+                      ></polygon>
+                    </g>
+                  </g>
+                  <g id="编组-13备份" transform="translate(181.017629, 59.150657)">
+                    <g id="编组-12" transform="translate(29.108362, 0.000000)">
+                      <g
+                        id="站用变"
+                        transform="translate(8.186727, 18.200202) rotate(-180.000000) translate(-8.186727, -18.200202) translate(4.093363, 14.105157)"
+                      >
+                        <mask id="mask-124" fill="white">
+                          <use xlink:href="#path-123"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-124)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-124)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-124)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变备份-2"
+                        transform="translate(4.093363, 11.375126) rotate(-180.000000) translate(-4.093363, -11.375126) translate(0.000000, 7.280081)"
+                      >
+                        <mask id="mask-126" fill="white">
+                          <use xlink:href="#path-125"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-126)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-126)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-126)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变备份"
+                        transform="translate(4.093363, 4.095046) rotate(-180.000000) translate(-4.093363, -4.095046) "
+                      >
+                        <mask id="mask-128" fill="white">
+                          <use xlink:href="#path-127"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-128)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-128)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-128)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变备份-3"
+                        transform="translate(11.370454, 11.375126) rotate(-180.000000) translate(-11.370454, -11.375126) translate(7.277091, 7.280081)"
+                      >
+                        <mask id="mask-130" fill="white">
+                          <use xlink:href="#path-129"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-130)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polyline
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-130)"
+                          transform="translate(4.104261, 1.593112) rotate(-45.000000) translate(-4.104261, -1.593112) "
+                          points="6.15136362 3.63937361 2.05715914 3.64021463 2.05800015 -0.453989859"
+                        ></polyline>
+                        <line
+                          x1="4.09336347"
+                          y1="4.3939175"
+                          x2="4.09336347"
+                          y2="7.69832203"
+                          id="路径-2"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-130)"
+                        ></line>
+                      </g>
+                      <g
+                        id="站用变-变低"
+                        transform="translate(11.370454, 4.095046) rotate(-360.000000) translate(-11.370454, -4.095046) translate(7.277091, 0.000000)"
+                      >
+                        <mask id="mask-132" fill="white">
+                          <use xlink:href="#path-131"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <ellipse
+                          id="椭圆形"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          mask="url(#mask-132)"
+                          cx="4.09336347"
+                          cy="4.0950455"
+                          rx="3.63835841"
+                          ry="3.64004044"
+                        ></ellipse>
+                        <polygon
+                          id="路径"
+                          stroke="#5596C6"
+                          stroke-width="0.910010111"
+                          stroke-linejoin="round"
+                          mask="url(#mask-132)"
+                          transform="translate(3.615289, 4.072180) rotate(-135.000000) translate(-3.615289, -4.072180) "
+                          points="5.20743574 5.23956236 2.02314186 5.66432728 2.44790678 2.48003341"
+                        ></polygon>
+                      </g>
+                      <rect
+                        id="矩形备份-40"
+                        fill="#5596C6"
+                        x="3.6385453"
+                        y="10.9201213"
+                        width="1"
+                        height="14.5601618"
+                      ></rect>
+                    </g>
+                    <g id="编组-3备份" transform="translate(48.210725, 20.930233)" fill="#5596C6">
+                      <polygon
+                        id="矩形"
+                        points="-1.81276905e-14 2.73003033 7.27709061 2.73003033 7.27709061 4.55005056 -1.81276905e-14 4.55005056"
+                      ></polygon>
+                      <rect
+                        id="矩形"
+                        x="6.82227245"
+                        y="0"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        x="10.0059996"
+                        y="0.910010111"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        x="13.1897267"
+                        y="1.82002022"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                    </g>
+                    <polygon
+                      id="矩形备份-34"
+                      fill="#5596C6"
+                      transform="translate(40.706226, 24.570273) rotate(-180.000000) translate(-40.706226, -24.570273) "
+                      points="32.7469077 23.6602629 48.6655434 23.6602629 48.6655434 25.4802831 32.7469077 25.4802831"
+                    ></polygon>
+                    <g id="编组-3备份-5" transform="translate(0.000000, 7.735086)">
+                      <rect
+                        id="矩形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        transform="translate(16.373454, 3.640040) rotate(-180.000000) translate(-16.373454, -3.640040) "
+                        x="8.86923452"
+                        y="0.682507583"
+                        width="15.0084387"
+                        height="5.91506572"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        cx="10.9156359"
+                        cy="3.64004044"
+                        rx="2.04640139"
+                        ry="2.04752275"
+                      ></ellipse>
+                      <ellipse
+                        id="椭圆形备份"
+                        stroke="#5596C6"
+                        stroke-width="1.36501517"
+                        cx="21.8312718"
+                        cy="3.64004044"
+                        rx="2.04640139"
+                        ry="2.04752275"
+                      ></ellipse>
+                      <polygon
+                        id="矩形备份-24"
+                        fill="#5596C6"
+                        transform="translate(26.834272, 3.640040) rotate(-180.000000) translate(-26.834272, -3.640040) "
+                        points="24.1053626 2.73003033 29.5631806 2.73003033 29.5631806 4.55005056 24.1053626 4.55005056"
+                      ></polygon>
+                      <polygon
+                        id="矩形备份-26"
+                        fill="#5596C6"
+                        transform="translate(4.775591, 3.640040) rotate(-180.000000) translate(-4.775591, -3.640040) "
+                        points="2.72458179e-14 2.73003033 9.55118142 2.73003033 9.55118142 4.55005056 2.72458179e-14 4.55005056"
+                      ></polygon>
+                    </g>
+                  </g>
+                  <g id="编组-7备份-5" transform="translate(148.630452, 192.922144)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-7备份-6" transform="translate(148.630452, 108.291203)">
+                    <g id="编组备份-6" transform="translate(29.203450, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="3.18372714"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形"
+                        fill="#FA7169"
+                        cx="4.09336347"
+                        cy="11.8301314"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <text
+                      id="51411"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.675429727" y="16.4600607">51411</tspan>
+                    </text>
+                  </g>
+                  <g id="编组-28备份-5" transform="translate(181.017629, 181.092012)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-16" transform="translate(181.017629, 85.087003)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="30.1738275">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15" transform="translate(0.000000, 11.438742)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                    <g
+                      id="编组"
+                      transform="translate(21.149045, 6.433686) rotate(-315.000000) translate(-21.149045, -6.433686) translate(17.510499, 0.973625)"
+                    >
+                      <mask id="mask-134" fill="white">
+                        <use xlink:href="#path-133"></use>
+                      </mask>
+                      <g id="蒙版"></g>
+                      <g id="编组-15" mask="url(#mask-134)" fill="#5596C6">
+                        <g
+                          transform="translate(3.638545, 5.680824) rotate(-270.000000) translate(-3.638545, -5.680824) translate(-1.585127, 1.820020)"
+                        >
+                          <polygon
+                            id="矩形备份-23"
+                            points="-5.82329448e-14 2.9507938 6.82227245 2.9507938 6.82227245 4.77081402 -5.82329448e-14 4.77081402"
+                          ></polygon>
+                          <polygon
+                            id="路径备份"
+                            transform="translate(6.587556, 3.860804) scale(-1, 1) rotate(-135.000000) translate(-6.587556, -3.860804) "
+                            points="3.858303 2.65925961 9.31680945 1.13149127 7.78915994 6.59011655"
+                          ></polygon>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-6" transform="translate(181.017629, 215.217391)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-28备份-8" transform="translate(181.017629, 130.586451)">
+                    <text
+                      id="514117"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="14.54802" y="18.7350859">514117</tspan>
+                    </text>
+                    <g id="编组-3备份-15">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="0"
+                        y="3.18503539"
+                        width="25.4698171"
+                        height="1.82002022"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="24.5601808"
+                        y="0.455005056"
+                        width="1.81927265"
+                        height="7.28008089"
+                      ></rect>
+                      <rect
+                        id="矩形备份-4"
+                        fill="#5596C6"
+                        x="27.7439079"
+                        y="1.36501517"
+                        width="1.81927265"
+                        height="5.46006067"
+                      ></rect>
+                      <rect
+                        id="矩形备份-5"
+                        fill="#5596C6"
+                        x="30.9276351"
+                        y="2.27502528"
+                        width="1.81927265"
+                        height="3.64004044"
+                      ></rect>
+                      <ellipse
+                        id="椭圆形备份-2"
+                        fill="#53BE89"
+                        cx="16.828272"
+                        cy="4.0950455"
+                        rx="4.09336347"
+                        ry="4.0950455"
+                      ></ellipse>
+                    </g>
+                  </g>
+                  <g id="编组-4" transform="translate(152.724637, 154.701719)">
+                    <g id="编组-2备份-4" transform="translate(24.199628, 0.000000)">
+                      <rect
+                        id="矩形"
+                        fill="#5596C6"
+                        x="4.09336347"
+                        y="0"
+                        width="1.81927265"
+                        height="23.6602629"
+                      ></rect>
+                      <rect
+                        id="矩形"
+                        fill="#FA7169"
+                        x="0"
+                        y="6.82507583"
+                        width="10.0059996"
+                        height="10.0101112"
+                      ></rect>
+                    </g>
+                    <text
+                      id="5131"
+                      font-family="PingFangSC-Semibold, PingFang SC"
+                      font-size="10.0101112"
+                      font-weight="500"
+                      fill="#5596C6"
+                    >
+                      <tspan x="0.779575329" y="16.0050556">5131</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </V3DragZoomContainer>
+    </div>
+    <div class="backB">
+      <el-button @click=handleClickBack>返回</el-button>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { V3DragZoomContainer } from 'v3-drag-zoom'
+const emit = defineEmits(['clickBack']);
+const handleClickBack = () => {
+  emit('clickBack');
+}
+</script>
+
+<style scoped lang="less">
+.wiring-chart {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #f0f1f8;
+  display: flex;
+  justify-content: center;
+  .wrapper {
+    width: 995px;
+    height: 815px;
+    overflow: hidden;
+  }
+  .backB {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+}
+</style>
