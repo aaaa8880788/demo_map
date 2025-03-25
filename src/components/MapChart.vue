@@ -21,7 +21,6 @@
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import proj4 from 'proj4'
-import { debounce } from 'lodash-es'
 
 import Map from 'ol/Map'
 import View from 'ol/View'
@@ -31,8 +30,6 @@ import GeoJSON from 'ol/format/GeoJSON'
 import VectorLayer from 'ol/layer/Vector'
 import VectorSource from 'ol/source/Vector'
 import XYZ from 'ol/source/XYZ'
-// import Draw from 'ol/interaction/Draw'
-import { createXYZ } from 'ol/tilegrid'
 import { register } from 'ol/proj/proj4'
 // import { fromLonLat, transform } from 'ol/proj'
 import { Point, LineString } from 'ol/geom'
@@ -45,20 +42,14 @@ const emit = defineEmits(['switchChart'])
  * 地图初始化
  * *************************************************************
  */
-proj4.defs('EPSG:3395', '+proj=merc +lon_0=0 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs')
-register(proj4)
 
 const map = ref<any>(null)
 
-const seaTileLayer = new TileLayer({
+// 加载地图瓦片
+const roadTileLayer = new TileLayer({
   source: new XYZ({
-    url: `http://10.122.146.98:8080/map/seaTile/{z}/{x}/{y}.png`,
-    wrapX: false,
-    projection: 'EPSG:3395',
-    tileGrid: createXYZ({
-      extent: [-20037508.342789244, -20037508.342789244, 20037508.342789244, 20037508.342789244],
-    }),
-  }),
+    url: `http://172.20.10.8:8080/mapabc/roadmap/{z}/{x}/{y}.png`,
+  })
 })
 
 // 加载地图底图
@@ -78,7 +69,7 @@ const mapInit = async () => {
     target: 'homeMap',
     controls: defaultControls({ zoom: false, rotate: false }),
     layers: [
-        // seaTileLayer, 
+        roadTileLayer, 
         districtLayer, 
         siteLineLayer
       ],
@@ -88,7 +79,7 @@ const mapInit = async () => {
       zoom: 10,
       minZoom: 10,
       maxZoom: 15,
-      extent: [108.061520625, 20.845042778320312, 110.698239375, 22.107097221679687],
+      extent: [108.061520625, 20.855042778320312, 110.698239375, 22.107097221679687], // 地图挪动限制范围 minX minY maxX maxY
     }),
   })
   map.value.on('click', siteLineClick)
@@ -99,10 +90,10 @@ const mapInit = async () => {
 const mapTileVisible = async () => {
   const zoom = map.value.getView().getZoom()
   if (zoom > 11) {
-    seaTileLayer.setVisible(true)
+    roadTileLayer.setVisible(true)
     districtLayer.setVisible(false)
   } else {
-    seaTileLayer.setVisible(false)
+    roadTileLayer.setVisible(false)
     districtLayer.setVisible(true)
   }
 }
@@ -810,6 +801,8 @@ const siteLineLayer = new VectorLayer({
 })
 
 const siteLineClick = (event: any) => {
+  console.log('event', event);
+  
   const feature = map.value.forEachFeatureAtPixel(event.pixel, (feature: any) => feature)
   if (feature.get('type') === 'site') {
     if (feature.get('name') === '涠洲') {
