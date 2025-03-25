@@ -61,10 +61,10 @@ const seaTileLayer = new TileLayer({
   }),
 })
 
+// 加载地图底图
 const districtLayer = new VectorLayer({
   source: new VectorSource({
-    // url: '/北海市.json',
-    url: '/北海市.geoJson',
+    url: '/北海市.json',
     format: new GeoJSON(),
   }),
   style: new Style({
