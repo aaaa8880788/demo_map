@@ -402,7 +402,6 @@ onMounted(() => {
 
 <style lang="less" scoped>
 .chart {
-  padding: 10px 20px;
     .device-chart {
         width: 434px;
         height: 210px;
