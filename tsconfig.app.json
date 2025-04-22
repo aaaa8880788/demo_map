@@ -3,8 +3,9 @@
   "include": ["*.d.ts", "src/**/*", "src/**/*.vue", "src/types/**/*.d.ts"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo", // 指定构建信息文件路径
+    "incremental": true, // 启用增量编译
+    "composite": true, // 启用项目组合模式
     "paths": {
       "@/*": ["./src/*"]
     }
