@@ -67,7 +67,7 @@ export interface FormField {
   width?: string // 表单宽度 '200px' 或者 '100%' 使用百分比方便大屏适配
   compName?: string // 表单组件名 'ElInput'、'ElSelect'
   compProps?: Record<string, any> // 表单组件其他属性
-  compEvents?: Record<string, () => void> // 表单组件事件
+  compEvents?: Record<string, (...args: any[]) => void> // 表单组件事件
   compOptions?: Array<{
     label: string // 表单组件选项标签
     value: any // 表单组件选项值

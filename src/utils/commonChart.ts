@@ -1,14 +1,7 @@
 import dayjs from "dayjs"
+import { fitSize } from "./common";
 
-const defaultColor = ['#ffc02e', '#08A536', '#006cff', '#ff7c17', '#9c4fe6', '#ff49ae'];
-
-// Echarts图表字体、间距自适应
-export const fitChartSize = (size: number,defalteWidth: number = 1920) => {
-  const clientWidth = window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth;
-  if (!clientWidth) return size;
-  const scale = (clientWidth / defalteWidth);
-  return Number((size*scale).toFixed(3));
-}
+const defaultColor = ['#ffc02e', '#08A536', '#006cff', '#ff7c17', '#9c4fe6', '#ff49ae', '#fe0000', '#3e4ea6', '#0199be', '#67c900', '#ffff01'];
 
 // ****** 常规饼图一 ****** start
 interface DataItemType_getCommonPieOptionOne {
@@ -28,12 +21,13 @@ export function getCommonPieOptionOne(params: ParamsType_getCommonPieOptionOne) 
   const series: Record<string, any>[] = data.map((item, index) => ({
     name: item.title,
     type: 'pie',
-    radius: [`${index * 10 + 35}%`, `${index * 10 + 40}%`],
-    center: ['27%', '50%'],
-    //环的位置
+    radius: [`${index * 7 + 30}%`, `${index * 7 + 33}%`],
+    center: ['25%', '50%'], // 环的位置
+    itemStyle: {
+      borderRadius: ['50%', '50%'],
+    },
     label: {
       show: false,
-      position: 'center',
     },
     labelLine: {
       show: false,
@@ -63,17 +57,17 @@ export function getCommonPieOptionOne(params: ParamsType_getCommonPieOptionOne) 
     title: {
       text: countTotal,
       subtext: subtext,
-      left: "26%",
-      top: "40%",
+      left: "24%",
+      top: "43%",
       textAlign: 'center',
-      itemGap: fitChartSize(2),
+      itemGap: fitSize(5),
       textStyle: {
-        fontSize: fitChartSize(20),
+        fontSize: fitSize(20),
         fontweight: 'bold',
         color: '#333',
       },
       subtextStyle: {
-        fontSize: fitChartSize(12),
+        fontSize: fitSize(12),
         color: '#333',
         opacity: 0.8,
       },
@@ -81,8 +75,9 @@ export function getCommonPieOptionOne(params: ParamsType_getCommonPieOptionOne) 
     tooltip: {
       show: true,
       trigger: 'item',
+      confine: true,
       textStyle: {
-        fontSize: fitChartSize(14),
+        fontSize: fitSize(14),
       },
       formatter: '{a} : {c} ({d}%)',
     },
@@ -92,11 +87,10 @@ export function getCommonPieOptionOne(params: ParamsType_getCommonPieOptionOne) 
       type: 'scroll',
       align: 'auto',
       selectedMode: false,
-      width: fitChartSize(200),
       y: 'center',
-      itemWidth: fitChartSize(10), // 图例标记的图形宽度。
-      itemHeight: fitChartSize(10), // 图例标记的图形高度。
-      itemGap: fitChartSize(10), //图例每项之间的间隔
+      itemWidth: fitSize(10), // 图例标记的图形宽度。
+      itemHeight: fitSize(10), // 图例标记的图形高度。
+      itemGap: fitSize(10), //图例每项之间的间隔
       right: '0',
       icon: 'rect',
       formatter: (name: string) => {
@@ -115,11 +109,38 @@ export function getCommonPieOptionOne(params: ParamsType_getCommonPieOptionOne) 
           }
         }
         const showName = name.length > 6 ? name.slice(0, 6) + '...' : name
-        return showName + '  ' + tarValue + '/' + tarTotal + '  ' + persent + '%'
+        return `{name|${showName}}{tarValue|${tarValue}}{space|/}{tarTotal|${tarTotal}}{persent|${persent}%}`
       },
       textStyle: {
         color: 'inherit',
-        fontSize: fitChartSize(12)
+        rich: {
+          name: {
+            fontSize: fitSize(12),
+            width: fitSize(90),
+            align: 'left',
+          },
+          tarValue: {
+            fontSize: fitSize(12),
+            width: fitSize(25),
+            align: 'center',
+          },
+          space: {
+            fontSize: fitSize(12),
+            width: fitSize(5),
+            align: 'center',
+            padding: [0, 5, 0, 5],
+          },
+          tarTotal: {
+            fontSize: fitSize(12),
+            width: fitSize(25),
+            align: 'center',
+          },
+          persent: {
+            fontSize: fitSize(12),
+            width: fitSize(45),
+            padding: [0, 0, 0, 5],
+          }
+        }
       },
       tooltip: {
         show: false,
@@ -146,7 +167,7 @@ interface ParamsType_getCommonPieOptionTwo {
 
 export function getCommonPieOptionTwo(params: ParamsType_getCommonPieOptionTwo) {
   const { data, subtext, color = defaultColor } = params
-  const sumTotal = data.reduce((pre, cur) => cur.total + pre, 0)
+  const sumTotal = data.reduce((pre, cur) => Number(cur.total) + Number(pre), 0)
   const seriesData: Record<string, any>[] = data.map(item => ({
     name: item.title,
     value: item.total,
@@ -161,34 +182,33 @@ export function getCommonPieOptionTwo(params: ParamsType_getCommonPieOptionTwo) 
       itemGap: 2,
       subtext: subtext,
       textStyle: {
-        fontSize: fitChartSize(20),
+        fontSize: fitSize(20),
         fontweight: 'bold',
         color: '#333',
       },
       subtextStyle: {
-        fontSize: fitChartSize(12),
+        fontSize: fitSize(12),
         color: '#333',
         opacity: 0.8,
       },
     },
     tooltip: { 
       trigger: "item", 
+      confine: true,
       textStyle: {
-        fontSize: fitChartSize(14),
+        fontSize: fitSize(14),
       },
-      formatter: "{b}\n{d}%" 
+      formatter: "{b}\n{c}\n{d}%" 
     },
     series: [
       {
-        name: "proportion",
         type: "pie",
-        radius: ["55%", "68%"],
+        radius: ["55%", "65%"],
         center: ["50%", "50%"],
         labelLine: {
-          length: 15,
-          length2: 5,
+          length: 20,
+          length2: 20,
         },
-        roseType: "radius",
         label: {
           formatter: "{b|{b}}\n{d|{d}}%",
           borderWidth: 0,
@@ -201,23 +221,23 @@ export function getCommonPieOptionTwo(params: ParamsType_getCommonPieOptionTwo) 
           rich: {
             a: {
               color: "#333",
-              fontSize: fitChartSize(14),
-              lineHeight: fitChartSize(20),
+              fontSize: fitSize(14),
+              lineHeight: fitSize(20),
             },
             b: {
               color: "#333",
-              fontSize: fitChartSize(14),
-              lineHeight: fitChartSize(20),
+              fontSize: fitSize(14),
+              lineHeight: fitSize(20),
             },
             c: {
               color: "#333",
-              fontSize: fitChartSize(14),
-              lineHeight: fitChartSize(20),
+              fontSize: fitSize(14),
+              lineHeight: fitSize(20),
             },
             d: {
               color: "#333",
-              fontSize: fitChartSize(14),
-              lineHeight: fitChartSize(20),
+              fontSize: fitSize(14),
+              lineHeight: fitSize(20),
             },
           },
           color: "#333",
@@ -269,20 +289,20 @@ export function getCommonBarOptionOne(params: ParamsType_getCommonBarOptionOne) 
     title: {
       text: title,
       textStyle: {
-        fontSize: fitChartSize(14),
+        fontSize: fitSize(14),
         color: "#333",
       },
     },
     color: color,
     grid: {
-      top: fitChartSize(40),
-      left: fitChartSize(30),
-      bottom: fitChartSize(10),
+      top: fitSize(40),
+      left: fitSize(30),
+      bottom: fitSize(10),
       containLabel: true,
     },
     tooltip: {
       textStyle: {
-        fontSize: fitChartSize(14),
+        fontSize: fitSize(14),
       },
       trigger: 'axis',
     },
@@ -297,7 +317,7 @@ export function getCommonBarOptionOne(params: ParamsType_getCommonBarOptionOne) 
       axisLabel: {
         interval: 0,
         color: '#333',
-        fontSize: fitChartSize(12),
+        fontSize: fitSize(12),
         formatter: function (value: string) {
           // console.log('value', value);
           return wrapText(value, 4);
@@ -309,7 +329,7 @@ export function getCommonBarOptionOne(params: ParamsType_getCommonBarOptionOne) 
       type: 'value',
       axisLabel: {
         color: '#999',
-        fontSize: fitChartSize(12),
+        fontSize: fitSize(12),
         hideOverlap: true,
         overflow: "truncate", //超出的部分截断
       },
@@ -318,11 +338,11 @@ export function getCommonBarOptionOne(params: ParamsType_getCommonBarOptionOne) 
     series: [
       {
         type: 'bar',
-        barWidth: fitChartSize(10),
+        barWidth: fitSize(10),
         colorBy: 'data',
         label: {
           show: true,
-          fontSize: fitChartSize(12),
+          fontSize: fitSize(12),
           position: 'top'
         },
         data: data.map(item => item.count),
@@ -353,7 +373,7 @@ export function getCommonLineOptionOne(params: ParamsType_getCommonLineOptionOne
     type: "line",
     symbol: "none",
     lineStyle: {
-      width: fitChartSize(2)
+      width: fitSize(2)
     },
     smooth: true,
     name: item.title,
@@ -364,15 +384,15 @@ export function getCommonLineOptionOne(params: ParamsType_getCommonLineOptionOne
     title: {
       text: title,
       textStyle: {
-        fontSize: fitChartSize(14),
+        fontSize: fitSize(14),
         color: "#333",
       },
     },
     grid: {
-      top: fitChartSize(40),
+      top: fitSize(40),
       left: 0,
       right: 0,
-      bottom: fitChartSize(5),
+      bottom: fitSize(5),
       containLabel: true,
     },
     tooltip: {
@@ -382,7 +402,7 @@ export function getCommonLineOptionOne(params: ParamsType_getCommonLineOptionOne
       borderWidth: 0,
       textStyle: {
         color: "#fff",
-        fontSize: fitChartSize(14)
+        fontSize: fitSize(14)
       },
       valueFormatter: (value: string) => value + "%",
     },
@@ -390,12 +410,12 @@ export function getCommonLineOptionOne(params: ParamsType_getCommonLineOptionOne
       data: data.map(item => item.title),
       icon: "rect",
       right: 0,
-      width: fitChartSize(600),
-      itemHeight: fitChartSize(12),
-      itemWidth: fitChartSize(12),
+      width: fitSize(600),
+      itemHeight: fitSize(12),
+      itemWidth: fitSize(12),
       type: "scroll",
       textStyle: {
-        fontSize: fitChartSize(12)
+        fontSize: fitSize(12)
       }
     },
     color: color,
@@ -411,7 +431,7 @@ export function getCommonLineOptionOne(params: ParamsType_getCommonLineOptionOne
         showMinLabel: true,
         showMaxLabel: true,
         color: "#999",
-        fontSize: fitChartSize(12),
+        fontSize: fitSize(12),
         boundaryGap: false,
         interval: xAxisData.length > 6 ? Math.floor(xAxisData.length / 4) : 0,
         formatter: function (value: string) {
@@ -429,7 +449,7 @@ export function getCommonLineOptionOne(params: ParamsType_getCommonLineOptionOne
       axisLabel: {
         show: true,
         interval: "auto",
-        fontSize: fitChartSize(12),
+        fontSize: fitSize(12),
         formatter: "{value}",
       },
       axisLine: {
