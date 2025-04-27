@@ -1,11 +1,13 @@
 <template>
   <div id="app">
-    <router-view />
+    <el-config-provider :locale="zhCn">
+      <router-view />
+    </el-config-provider>
   </div>
 </template>
 
 <script setup lang="ts">
-// 无需额外导入，因为路由配置已经在 main.ts 中处理
+import zhCn from 'element-plus/es/locale/lang/zh-cn';
 </script>
 
 <style lang="less" scoped>
