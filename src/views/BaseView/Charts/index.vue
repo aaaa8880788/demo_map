@@ -352,32 +352,4 @@ onMounted(() => {
 </script>
 
 <style lang="less" scoped>
-.chart {
-	.device-chart {
-		width: 434px;
-		height: 210px;
-	}
-	.station-device-chart {
-		height: 216px;
-		width: 100%;
-		display: flex;
-		&-left {
-			padding: 10px 20px;
-			flex: 1;
-		}
-		&-right {
-			padding: 10px 20px;
-			flex: 2;
-		}
-	}
-	.station {
-		box-sizing: border-box;
-		margin-bottom: 10px;
-		padding: 2px;
-		border-radius: 4px;
-	}
-	.highlight-station {
-		box-shadow: inset 0 2px 2px #016af9, inset 0 -2px 2px #016af9, inset 2px 0 2px #016af9, inset -2px 0 2px #016af9;
-	}
-}
 </style>

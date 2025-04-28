@@ -7,15 +7,15 @@
 
 <script setup lang="ts">
 import Charts from '@/views/BaseView/Charts/index.vue'
-import Test from '@/views/BaseView/Test/index.vue'
+import Svg from '@/views/BaseView/Svg/index.vue'
 
 const menuCompMap = {
   Charts,
-  Test,
+  Svg,
 }
 const menuData = ref<any[]>([
   { name: '视图总览', compKey: 'Charts', disabled: false },
-  { name: '测试', compKey: 'Test', disabled: false },
+  { name: 'Svg', compKey: 'Svg', disabled: false },
 ])
 
 onMounted(() => {

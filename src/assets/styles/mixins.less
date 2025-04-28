@@ -59,6 +59,10 @@
             position: relative;
             height: calc(100% - 34px);
             overflow: auto;
+            .device-chart {
+              width: 440px;
+              height: 285px;
+            }
           }
         }
       }
@@ -88,6 +92,34 @@
             top: 0;
             left: 0;
             background: url('@/assets/images/item_title_2.png') no-repeat center/100% 100%;
+          }
+          &-content {
+            .device-chart {
+              width: 440px;
+              height: 285px;
+            }
+            .station-device-chart {
+              height: 216px;
+              width: 100%;
+              display: flex;
+              &-left {
+                padding: 10px 20px;
+                flex: 1;
+              }
+              &-right {
+                padding: 10px 20px;
+                flex: 2;
+              }
+            }
+            .station {
+              box-sizing: border-box;
+              margin-bottom: 10px;
+              padding: 2px;
+              border-radius: 4px;
+            }
+            .highlight-station {
+              box-shadow: inset 0 2px 2px #016af9, inset 0 -2px 2px #016af9, inset 2px 0 2px #016af9, inset -2px 0 2px #016af9;
+            }
           }
           .el-collapse {
             border: none;
