@@ -99,7 +99,7 @@ onMounted(() => {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1600px;
-    height: 600px;
+    height: 700px;
     padding: 30px;
     border: 1px solid #0286f7;
     border-radius: 5px;

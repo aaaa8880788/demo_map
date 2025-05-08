@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
     "@tsconfig/node22": "^22.0.0",
     "axios": "^1.8.4",
     "dayjs": "^1.11.13",
@@ -26,6 +27,7 @@
     "pinia-plugin-persistedstate": "^4.2.0",
     "postcss-px-to-viewport": "^1.1.1",
     "proj4": "^2.15.0",
+    "uuid": "^11.1.0",
     "v3-drag-zoom": "^1.1.20",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"

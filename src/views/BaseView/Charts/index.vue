@@ -83,7 +83,7 @@ import icon_20 from "@/assets/images/baseView/icon_20.png"; // 图像类
 import icon_21 from "@/assets/images/baseView/icon_21.png"; // 辅控类
 import icon_22 from "@/assets/images/baseView/icon_22.png"; // 在线监测类
 
-const { stationArr, stationInfo } = useStationStore()
+const station = useStationStore()
 
 const initData = {
 	activeNames: [],
@@ -93,7 +93,7 @@ const initData = {
       dayjs().startOf('day').format('YYYY-MM-DD HH:mm:ss'),
       dayjs().format('YYYY-MM-DD HH:mm:ss'),
     ],
-    treeNodeId: stationInfo?.id || '',
+    treeNodeId: station.stationInfo?.id || '',
   },
 	stationData: [],
 	stationDataLoading: false,
@@ -141,7 +141,7 @@ const fields = ref<FormField[]>([
     compProps: {
       clearable: false,
     },
-    compOptions: [...stationArr.map((item: any) => ({ label: item.name, value: item.id }))],
+    compOptions: [...station.stationArr.map((item: any) => ({ label: item.name, value: item.id }))],
   },
 ])
 const searchForm = ref({ ...initData.searchForm });
