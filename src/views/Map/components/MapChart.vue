@@ -12,6 +12,9 @@
         <el-form-item label="井线图层" >
           <el-checkbox v-model="searchForm.siteLineLayerVisible"  @change="siteLineLayerChange"></el-checkbox>
         </el-form-item>
+        <el-form-item label="定位" >
+          <el-button @click="() => moveCenter()">初始化视图</el-button>
+        </el-form-item>
         <el-form-item v-if="historyFenceLayerVisible" label="历史围栏">
           <el-select :loading="fenceDataLoading" style="width: 150px" v-model="searchForm.historyFence" @change="handleChangeHistoryFence">
             <el-option v-for="item in historyFenceOptions" :key="item.value" :label="item.label" :value="item.value"></el-option>
@@ -334,7 +337,7 @@ const handleChangeHistoryFence = (value: string) => {
 
 const drawHistoryFence = (data: any[]) => {
   if(!Array.isArray(data) || !data.length) {
-    moveCenter()
+    // moveCenter()
     return;
   }
   const features: any[] = [];
@@ -397,7 +400,7 @@ const drawHistoryFence = (data: any[]) => {
   })
   map.value.addLayer(historyFenceLayer.value);
   if(['全部围栏', '不显示围栏'].includes(searchForm.value.historyFence)) {
-    moveCenter()
+    // moveCenter()
   }else {
     if (features.length === 1) {
       const feature = features[0];
