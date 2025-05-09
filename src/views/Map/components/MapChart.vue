@@ -12,7 +12,7 @@
         <el-form-item label="井线图层" >
           <el-checkbox v-model="searchForm.siteLineLayerVisible"  @change="siteLineLayerChange"></el-checkbox>
         </el-form-item>
-        <el-form-item label="历史围栏" >
+        <el-form-item v-if="historyFenceLayerVisible" label="历史围栏">
           <el-select :loading="fenceDataLoading" style="width: 150px" v-model="searchForm.historyFence" @change="handleChangeHistoryFence">
             <el-option v-for="item in historyFenceOptions" :key="item.value" :label="item.label" :value="item.value"></el-option>
           </el-select>
@@ -134,7 +134,7 @@ const searchForm = ref({
   selectedScale: 'metric', // 刻度
   siteLineLayerVisible: true, // 井线图层
   historyFence: '全部围栏', // 历史围栏
-  fenceOperationPanelVisible: false, // 电子围栏
+  fenceOperationPanelVisible: false, // 电子围栏显隐
   fenceOperationPanelStatus: 'add', // 电子围栏工具状态
 })
 
@@ -199,7 +199,8 @@ const map = ref<any>(null) // 地图初始化
 const roadTileLayer = new TileLayer({
   source: new XYZ({
     // url: `http://172.20.10.8:8080/mapabc/roadmap/{z}/{x}/{y}.png`,
-    url: VITE_MAP_ROAD_TILE_LAYER_URL
+    // url: VITE_MAP_ROAD_TILE_LAYER_URL
+    url: '/server/public/mapabc/roadmap/{z}/{x}/{y}.png'
   })
 }) // 加载地图瓦片
 const districtLayer = new VectorLayer({
@@ -292,9 +293,11 @@ const siteLineLayer = new VectorLayer({
   renderBuffer: 4000,
 }) // 井线图层
 const historyFenceLayer = ref<any>(null) // 历史围栏图层
+const historyFenceLayerVisible = ref<any>(true) // 历史围栏图层
+
 const fenceData = ref<any>([]); // 历史围栏数据
 const fenceDataLoading = ref<boolean>(false); 
-const currentSelectFence = ref<any>(null)
+const currentSelectFence = ref<any>({})
 const currentSelectFenceLayer = ref<any>(null)
 // 地图 ------ end
 const currentSelectFenceTimer = ref<any>(null)
@@ -427,14 +430,15 @@ const handleFenceClick = (type: string) => {
     searchForm.value.fenceOperationPanelStatus = 'add'
     searchForm.value.fenceOperationPanelVisible = true
   }else if(type == 'edit') {
-    if(!currentSelectFence.value) {
+    if(!Object.keys(currentSelectFence.value).length) {
       return ElMessage({
         type: 'warning',
         message: '请先选中围栏'
       })
     }else {
-      searchForm.value.fenceOperationPanelStatus = 'edit'
       clearCurrentSelectFenceLayer();
+      historyFenceLayerVisible.value = false;
+      searchForm.value.fenceOperationPanelStatus = 'edit'
       searchForm.value.fenceOperationPanelVisible = true
       // historyFenceLayer.value.setVisible(false);
     }
@@ -519,10 +523,10 @@ const mapTileVisible = async () => {
 const handleMapClick = (event: any) => {
   showSitePopover.value = false
   currentSitePopoverFeature.value = null
-  currentSelectFence.value = null;
+  currentSelectFence.value = {};
   clearCurrentSelectFenceLayer() // 切换时清除之前的围栏
   const feature = map.value.forEachFeatureAtPixel(event.pixel, (feature: any) => feature)
-  console.log('feature------', feature);
+  // console.log('feature------', feature);
   if(!feature) return;
   const type = feature.get('type')
   if (type === 'site') {
@@ -604,7 +608,7 @@ const drawCurrentSelectFence = (fence: any) => {
       })
     }
   })
-  console.log('currentSelectFenceLayer.value', currentSelectFenceLayer.value);
+  // console.log('currentSelectFenceLayer.value', currentSelectFenceLayer.value);
   currentSelectFenceTimer.value = setInterval(() => {
     currentSelectFenceLayer.value.setVisible(!currentSelectFenceLayer.value.getVisible())
   }, 1000)
@@ -654,6 +658,20 @@ onBeforeUnmount(() => {
   map.value?.dispose()
   showInfo.value = false
   clearTimeout(timer.value)
+})
+
+watch(historyFenceLayerVisible, (newValue) => {
+  if(newValue) {
+    historyFenceLayer.value.setVisible(true);
+  }else {
+    historyFenceLayer.value.setVisible(false);
+  }
+})
+
+watch(searchForm.value, (newValue) => {
+  if(!newValue.fenceOperationPanelVisible) {
+    historyFenceLayerVisible.value = true
+  }
 })
 
 </script>

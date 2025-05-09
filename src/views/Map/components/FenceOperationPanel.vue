@@ -9,12 +9,12 @@
       </div>
     </div>
     <div class="main">
-      <el-form :model="searchForm">
+      <el-form :model="formData">
         <el-form-item label="围栏名称">
-          <el-input v-model="searchForm.fenceName" placeholder="请输入围栏名称"></el-input>
+          <el-input v-model="formData.fenceName" placeholder="请输入围栏名称"></el-input>
         </el-form-item>
         <el-form-item label="围栏样式">
-          <el-radio-group v-model="searchForm.fenceType" @change="handleChange('fenceType', $event)">
+          <el-radio-group v-model="formData.fenceType" @change="handleChange('fenceType', $event)">
             <el-radio-button label="圆形" value="Circle"></el-radio-button>
             <el-radio-button label="多边形" value="Polygon"></el-radio-button>
           </el-radio-group>
@@ -24,7 +24,7 @@
     <div class="footer">
       <el-button type="primary" @click="handleClick('save')">保存</el-button>
       <el-button type="danger" @click="handleClick('remove')">清除</el-button>
-      <el-button type="default" @click="handleClick('cancel')">取消</el-button>
+      <el-button type="default" @click="handleClick('cancle')">取消</el-button>
     </div>
   </div>
 </template>
@@ -33,6 +33,8 @@
 import { Close } from '@element-plus/icons-vue'
 import { ElMessage } from 'element-plus';
 import Draw from 'ol/interaction/Draw'
+import Modify from 'ol/interaction/Modify'
+import Select from 'ol/interaction/Select'
 import VectorLayer from 'ol/layer/Vector';
 import VectorSource from 'ol/source/Vector';
 import { Style, Fill, Stroke } from 'ol/style';
@@ -62,7 +64,8 @@ const props = withDefaults(
 )
 const { visible, mapInstance, status, fenceData } = toRefs(props)
 
-const searchForm = ref({
+const formData = ref({
+  id: null,
   fenceName: '', // 围栏名称
   fenceType: 'Circle', // 围栏样式
 })
@@ -70,35 +73,38 @@ const searchForm = ref({
 const drawLayer = ref<any>(null);
 const fenceSource = ref<any>(new VectorSource({ wrapX: false }))
 const fenceDraw = ref<any>(null)
+const selectInteraction = ref<any>(null) // 选中交互
+const modifyInteraction = ref<any>(null) // 修改交互
 
 const circleInfo = ref<any>(null)
 const polygonInfo = ref<any>(null)
 
-const addInteraction = () => {
-  removeInteraction()
+const addFenceDrawInteraction = () => {
+  removeAddFenceDrawInteraction()
   fenceDraw.value = new Draw({
     source: fenceSource.value,
-    type: searchForm.value.fenceType as Type,
+    type: formData.value.fenceType as Type,
   });
   mapInstance.value.addInteraction(fenceDraw.value);
   fenceDraw.value.on("drawend", (event: any) => {
     // 绘制完成的回调
-    removeInteraction()
-    drawEnd(event);
-    console.log('fenceSource.value------', fenceSource.value);
-    
+    removeAddFenceDrawInteraction()
+    drawEnd(event.feature);
+    // 给绘制的图形一个唯一的标识符
+    const feature = event.feature;
+    feature.set('fenceDraw', true);
   });
 }
 
-const removeInteraction = () => {
+const removeAddFenceDrawInteraction = () => {
   if(fenceDraw.value) {
     mapInstance.value.removeInteraction(fenceDraw.value)
   }
 }
 
 // 绘制完成解析
-const drawEnd = (event: any) => {
-  let geo = event.feature.getGeometry();
+const drawEnd = (feature: any) => {
+  let geo = feature.getGeometry();
   const type: string = geo.getType(); //获取类型
   const handle = {
     Circle: () => {
@@ -114,7 +120,6 @@ const drawEnd = (event: any) => {
     Polygon: () => {
       //获取坐标点
       let points = geo.getCoordinates();
-      console.log('points', points);
       polygonInfo.value = {
         type: type,
         path: points[0],
@@ -125,7 +130,8 @@ const drawEnd = (event: any) => {
 }
 
 const clearForm = () => {
-  searchForm.value = {
+  formData.value = {
+    id: null,
     fenceName: '', // 围栏名称
     fenceType: 'Circle', // 围栏样式
   }
@@ -142,7 +148,7 @@ const clearDraw = () => {
 const handleChange = (field: string, value: any) => {
   if(field == 'fenceType') {
     clearDraw();
-    addInteraction()
+    addFenceDrawInteraction()
   }
 }
 
@@ -150,7 +156,7 @@ const handleClick = (type: string) => {
   switch (type) {
     case 'save':
       {
-        if(!searchForm.value.fenceName) {
+        if(!formData.value.fenceName) {
           return ElMessage({
             type: 'warning',
             message: '请输入围栏名称'
@@ -160,19 +166,27 @@ const handleClick = (type: string) => {
         // console.log('area', area);        
         if (area) {
           let data = {
-            id: uuidv4(),
-            name: searchForm.value.fenceName,
+            id: status.value == 'add' ? uuidv4() : formData.value.id,
+            name: formData.value.fenceName,
             area: area,
           };
           // 可调用后端api进行保存，这里直接pinia
-          fence.setFenceInfo([...fence.fenceInfo, data])
+          const index = fence.fenceInfo.findIndex((item: any) => item.id == data.id);
+          if(index != -1) {
+            const newFence = [...fence.fenceInfo]
+            newFence[index] = data   
+            fence.setFenceInfo(newFence)
+          }else {
+            const newFence = [...fence.fenceInfo, data]
+            fence.setFenceInfo(newFence)
+          }
           emit('save');
           handleClose();
         }
       }
       break;
     case 'close':
-    case 'cancel':
+    case 'cancle':
       {
         handleClose()
       }
@@ -180,7 +194,7 @@ const handleClick = (type: string) => {
     case 'remove':
       {
         clearDraw()
-        addInteraction()
+        addFenceDrawInteraction()
       }
       break;
     default:
@@ -192,7 +206,7 @@ const handleClick = (type: string) => {
 const handleClose  = () => {
   clearDraw();
   clearForm();
-  removeInteraction();
+  removeAddFenceDrawInteraction();
   emit('update:visible', false)
 }
 
@@ -231,7 +245,7 @@ const formatFenceData = () => {
       // return `Polygon (${pathArr.join(", ")})`;
       return { ...info }
     },
-  }[searchForm.value.fenceType];
+  }[formData.value.fenceType];
   if(handle) {
     return handle()
   }else {
@@ -254,39 +268,94 @@ const initMapTool = () => {
     }),
   })
   mapInstance.value.addLayer(drawLayer.value);
+  mapInstance.value.on('click', (event: any) => {
+    handleMapClick(event);
+  })
+
+  selectInteraction.value = new Select()
+  // 监听选择事件
+  selectInteraction.value.on('select', (event: any) => {
+    const features = selectInteraction.value.getFeatures()
+    if(features) {
+      // 进入编辑模式
+      if(modifyInteraction.value) {
+        mapInstance.value.removeInteraction(modifyInteraction.value);
+      }
+      modifyInteraction.value = new Modify({
+        features: features,
+      })
+      modifyInteraction.value.on("modifyend", (event: any) => {
+        drawEnd(event.features.getArray()[0]);
+      })
+      mapInstance.value.addInteraction(modifyInteraction.value);
+    }
+  });
+}
+
+const handleMapClick = (event: any) => {
+  const feature = mapInstance.value.forEachFeatureAtPixel(event.pixel, (feature: any) => feature)
+  // console.log('feature', feature);
+  if(!feature) return 
+  if(feature.get('fenceDraw')) {
+    mapInstance.value.addInteraction(selectInteraction.value)
+  }else {
+    // 如果点击的地方不是选择的特征，则退出编辑模式
+    if(selectInteraction.value) {
+      mapInstance.value.removeInteraction(selectInteraction.value);
+    }
+    if(modifyInteraction.value) {
+      mapInstance.value.removeInteraction(modifyInteraction.value);
+    }
+  }
+}
+
+const editFenceDrawInteraction = () => {
+  // console.log('fenceData', fenceData.value);
+  if(!Object.keys(fenceData.value).length) return
+  let feature: any;
+  const { id, name, area } = fenceData.value
+  switch (area.type) {
+    case "Circle": {
+      feature = new Feature({
+        geometry: new Circle(area.center, area.radius),
+        fenceDraw: true,
+      });
+      circleInfo.value = {
+        type: area.type,
+        center: area.center, // 中心点
+        radius: area.radius, // 获取和半径
+      }
+      break;
+    }
+    case "Polygon": {
+      feature = new Feature({
+        geometry: new Polygon([area.path]),
+        fenceDraw: true,
+      });
+      polygonInfo.value = {
+        type: area.type,
+        path: area.path,
+      }
+      break;
+    }
+    default:
+      break;
+  }
+  fenceSource.value = new VectorSource({ 
+    features: [feature],
+  })
+  drawLayer.value.setSource(fenceSource.value);
+  formData.value.id = id
+  formData.value.fenceName = name
+  formData.value.fenceType = area.type
 }
 
 watch(visible, (newValue) => {
   if(newValue) {
     if(status.value == 'add') {
-      addInteraction();
+      addFenceDrawInteraction();
     }else if(status.value == 'edit') {
-      console.log('fenceData', fenceData.value);
-      let feature: any;
-      switch (fenceData.value.area.type) {
-        case "Circle": {
-          feature = new Feature({
-            geometry: new Circle(fenceData.value.area.center, fenceData.value.area.radius),
-            type: fenceData.value.area.center,
-            name: fenceData.value.name
-          });
-          break;
-        }
-        case "Polygon": {
-          feature = new Feature({
-            geometry: new Polygon([fenceData.value.area.path]),
-            type: fenceData.value.area.type,
-            name: fenceData.value.name
-          });
-          break;
-        }
-        default:
-          break;
-      }
-      fenceSource.value = new VectorSource({ 
-        features: [feature],
-      })
-      drawLayer.value.setSource(fenceSource.value);
+      editFenceDrawInteraction();
     }
   }
 })

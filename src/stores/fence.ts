@@ -7,8 +7,6 @@ export const useFenceStore = defineStore('fence', () => {
 
   const setFenceInfo = (val: any[]) => {
     fenceInfo.value = val
-    console.log('val', val);
-    console.log('fenceInfo.value', fenceInfo.value);
   }
 
   return { fenceInfo, setFenceInfo }
